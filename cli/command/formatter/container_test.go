@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/cli/internal/test"
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/docker_cli/internal/test"
+	"github.com/joshuakb2/moby/api/types/container"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

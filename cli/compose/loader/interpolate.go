@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	interp "github.com/docker/cli/cli/compose/interpolation"
+	interp "github.com/joshuakb2/docker_cli/cli/compose/interpolation"
 )
 
 var interpolateTypeCastMapping = map[interp.Path]interp.Cast{

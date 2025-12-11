@@ -6,9 +6,9 @@
 // standard library in [docker@fa3ec89], which was based on [go1.3.3],
 // with Windows implementatinos being added in [docker@9b648df].
 //
-// [docker@fa3ec89]: https://github.com/moby/moby/commit/fa3ec89515431ce425f924c8a9a804d5cb18382f
+// [docker@fa3ec89]: https://github.com/joshuakb2/moby/commit/fa3ec89515431ce425f924c8a9a804d5cb18382f
 // [go1.3.3]: https://github.com/golang/go/blob/go1.3.3/src/pkg/path/filepath/symlink.go
-// [docker@9b648df]: https://github.com/moby/moby/commit/9b648dfac6453de5944ee4bb749115d85a253a05
+// [docker@9b648df]: https://github.com/joshuakb2/moby/commit/9b648dfac6453de5944ee4bb749115d85a253a05
 
 package symlink
 

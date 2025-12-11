@@ -9,9 +9,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cmd/docker-trust/internal/trust"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/trust"
 	"github.com/spf13/cobra"
 	"github.com/theupdateframework/notary"
 	"github.com/theupdateframework/notary/storage"

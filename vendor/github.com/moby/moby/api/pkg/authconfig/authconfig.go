@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/registry"
 )
 
 // Encode serializes the auth configuration as a base64url encoded

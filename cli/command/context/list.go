@@ -8,13 +8,13 @@ import (
 	"os"
 	"sort"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/context/docker"
-	flagsHelper "github.com/docker/cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/context/docker"
+	flagsHelper "github.com/joshuakb2/docker_cli/cli/flags"
 	"github.com/fvbommel/sortorder"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

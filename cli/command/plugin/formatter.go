@@ -3,9 +3,9 @@ package plugin
 import (
 	"strings"
 
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/moby/moby/api/types/plugin"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/moby/api/types/plugin"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

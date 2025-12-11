@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 )
 
 // GpuOpts is a Value type for parsing mounts

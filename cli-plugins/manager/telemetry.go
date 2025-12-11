@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
 	"github.com/spf13/cobra"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

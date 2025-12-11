@@ -7,7 +7,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/moby/moby/api/types/mount"
+	"github.com/joshuakb2/moby/api/types/mount"
 )
 
 const endOfSpec = rune(0)

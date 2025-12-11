@@ -6,10 +6,10 @@ package context
 import (
 	"errors"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/inspect"
-	"github.com/docker/cli/cli/context/store"
-	flagsHelper "github.com/docker/cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/inspect"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
+	flagsHelper "github.com/joshuakb2/docker_cli/cli/flags"
 	"github.com/spf13/cobra"
 )
 

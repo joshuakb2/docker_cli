@@ -6,14 +6,14 @@ import (
 	"fmt"
 
 	"github.com/containerd/errdefs"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/service"
-	"github.com/docker/cli/cli/compose/convert"
-	composetypes "github.com/docker/cli/cli/compose/types"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/service"
+	"github.com/joshuakb2/docker_cli/cli/compose/convert"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 func deployCompose(ctx context.Context, dockerCli command.Cli, opts *deployOptions, config *composetypes.Config) error {

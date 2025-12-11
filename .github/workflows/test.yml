@@ -62,7 +62,7 @@ jobs:
         name: Checkout
         uses: actions/checkout@v6
         with:
-          path: ${{ env.GOPATH }}/src/github.com/docker/cli
+          path: ${{ env.GOPATH }}/src/github.com/joshuakb2/docker_cli
       -
         name: Set up Go
         uses: actions/setup-go@v6
@@ -73,12 +73,12 @@ jobs:
         run: |
           go test -coverprofile=/tmp/coverage.txt $(go list ./... | grep -vE '/vendor/|/e2e/|/cmd/docker-trust')
           go tool cover -func=/tmp/coverage.txt
-        working-directory: ${{ env.GOPATH }}/src/github.com/docker/cli
+        working-directory: ${{ env.GOPATH }}/src/github.com/joshuakb2/docker_cli
         shell: bash
       -
         name: Send to Codecov
         uses: codecov/codecov-action@v5
         with:
           files: /tmp/coverage.txt
-          working-directory: ${{ env.GOPATH }}/src/github.com/docker/cli
+          working-directory: ${{ env.GOPATH }}/src/github.com/joshuakb2/docker_cli
           token: ${{ secrets.CODECOV_TOKEN }}

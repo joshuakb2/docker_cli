@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/cli/internal/volumespec"
+	"github.com/joshuakb2/docker_cli/internal/volumespec"
 )
 
 // UnsupportedProperties not yet supported by this implementation of the compose file

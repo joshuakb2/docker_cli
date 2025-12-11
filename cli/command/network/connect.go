@@ -7,12 +7,12 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/opts"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/completion"
+	"github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 
@@ -118,7 +118,7 @@ func toNetipAddr(ip net.IP) netip.Addr {
 // toPrefix converts n into a netip.Prefix. If n is not a valid IPv4 or IPV6
 // address, ToPrefix returns netip.Prefix{}, false.
 //
-// TODO(thaJeztah): create internal package similar to https://github.com/moby/moby/blob/0769fe708773892d6ac399ee137e71a777b35de7/daemon/internal/netiputil/netiputil.go#L21-L42
+// TODO(thaJeztah): create internal package similar to https://github.com/joshuakb2/moby/blob/0769fe708773892d6ac399ee137e71a777b35de7/daemon/internal/netiputil/netiputil.go#L21-L42
 func toPrefix(n net.IPNet) (netip.Prefix, bool) {
 	if ll := len(n.Mask); ll != net.IPv4len && ll != net.IPv6len {
 		return netip.Prefix{}, false

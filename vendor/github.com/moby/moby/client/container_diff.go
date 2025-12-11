@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 )
 
 // ContainerDiff shows differences in a container filesystem since it was started.

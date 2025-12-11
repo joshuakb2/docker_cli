@@ -900,9 +900,9 @@ __docker_complete_log_drivers() {
 __docker_complete_log_options() {
 	# see https://docs.docker.com/config/containers/logging/configure/
 
-	# really global options, defined in https://github.com/moby/moby/blob/master/daemon/logger/factory.go
+	# really global options, defined in https://github.com/joshuakb2/moby/blob/master/daemon/logger/factory.go
 	local common_options1="max-buffer-size mode"
-	# common options defined in https://github.com/moby/moby/blob/master/daemon/logger/loginfo.go
+	# common options defined in https://github.com/joshuakb2/moby/blob/master/daemon/logger/loginfo.go
 	# but not implemented in all log drivers
 	local common_options2="env env-regex labels"
 

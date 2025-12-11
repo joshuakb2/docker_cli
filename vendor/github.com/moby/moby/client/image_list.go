@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/image"
-	"github.com/moby/moby/client/pkg/versions"
+	"github.com/joshuakb2/moby/api/types/image"
+	"github.com/joshuakb2/moby/client/pkg/versions"
 )
 
 // ImageList returns a list of images in the docker host.

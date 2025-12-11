@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/cli/internal/lazyregexp"
+	"github.com/joshuakb2/docker_cli/internal/lazyregexp"
 )
 
 const (

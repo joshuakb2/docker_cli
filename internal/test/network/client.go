@@ -3,7 +3,7 @@ package network
 import (
 	"context"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 )
 
 // FakeClient is a fake NetworkAPIClient

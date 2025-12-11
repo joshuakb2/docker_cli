@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/moby/moby/api/types"
-	"github.com/moby/moby/api/types/events"
-	"github.com/moby/moby/client/internal"
-	"github.com/moby/moby/client/internal/timestamp"
+	"github.com/joshuakb2/moby/api/types"
+	"github.com/joshuakb2/moby/api/types/events"
+	"github.com/joshuakb2/moby/client/internal"
+	"github.com/joshuakb2/moby/client/internal/timestamp"
 )
 
 // EventsListOptions holds parameters to filter events with.

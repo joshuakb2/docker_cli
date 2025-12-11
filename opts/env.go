@@ -13,8 +13,8 @@ import (
 // inside the container to validate them (see [moby-16585]). The only validation
 // here is to check if name is empty, per [moby-25099].
 //
-// [moby-16585]: https://github.com/moby/moby/issues/16585
-// [moby-25099]: https://github.com/moby/moby/issues/25099
+// [moby-16585]: https://github.com/joshuakb2/moby/issues/16585
+// [moby-25099]: https://github.com/joshuakb2/moby/issues/25099
 func ValidateEnv(val string) (string, error) {
 	k, _, hasValue := strings.Cut(val, "=")
 	if k == "" {

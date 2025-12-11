@@ -3,9 +3,9 @@ package system
 import (
 	"net/netip"
 
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // Info contains response of Engine API:

@@ -19,7 +19,7 @@ import (
 	is "gotest.tools/v3/assert/cmp"
 )
 
-// For https://github.com/docker/cli/pull/1014#issuecomment-409308139
+// For https://github.com/joshuakb2/docker_cli/pull/1014#issuecomment-409308139
 func TestEOFWithError(t *testing.T) {
 	ctx := context.TODO()
 	c, err := New(ctx, "sh", "-c", "echo hello; echo some error >&2; exit 42")
@@ -209,7 +209,7 @@ func TestCloseWhileReading(t *testing.T) {
 // with a PID larger than 1), and negative (-n, all processes in process group
 // "n") values for pid are never considered to be alive.
 //
-// It was forked from https://github.com/moby/moby/blob/v28.3.3/pkg/process/process_unix.go#L17-L42
+// It was forked from https://github.com/joshuakb2/moby/blob/v28.3.3/pkg/process/process_unix.go#L17-L42
 func processAlive(pid int) bool {
 	if pid < 1 {
 		return false

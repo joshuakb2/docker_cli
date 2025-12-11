@@ -13,7 +13,7 @@ import (
 // and an error if the details string is not in a valid format.
 //
 // The details string encoding is implemented in
-// github.com/moby/moby/api/server/httputils/write_log_stream.go
+// github.com/joshuakb2/moby/api/server/httputils/write_log_stream.go
 func Parse(details string) (map[string]string, error) {
 	pairs := strings.Split(details, ",")
 	detailsMap := make(map[string]string, len(pairs))

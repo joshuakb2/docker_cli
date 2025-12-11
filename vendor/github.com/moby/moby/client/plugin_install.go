@@ -11,8 +11,8 @@ import (
 
 	cerrdefs "github.com/containerd/errdefs"
 	"github.com/distribution/reference"
-	"github.com/moby/moby/api/types/plugin"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/plugin"
+	"github.com/joshuakb2/moby/api/types/registry"
 )
 
 // PluginInstallOptions holds parameters to install a plugin.
@@ -27,7 +27,7 @@ type PluginInstallOptions struct {
 	// authentication header value in base64 encoded format, or an error if the
 	// privilege request fails.
 	//
-	// For details, refer to [github.com/moby/moby/api/types/registry.RequestAuthConfig].
+	// For details, refer to [github.com/joshuakb2/moby/api/types/registry.RequestAuthConfig].
 	PrivilegeFunc         func(context.Context) (string, error)
 	AcceptPermissionsFunc func(context.Context, plugin.Privileges) (bool, error)
 	Args                  []string

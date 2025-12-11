@@ -14,16 +14,16 @@ import (
 	"github.com/containerd/errdefs"
 	"github.com/containerd/platforms"
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/config/types"
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/internal/jsonstream"
-	"github.com/docker/cli/opts"
-	"github.com/moby/moby/api/types/mount"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/completion"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/config/types"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/internal/jsonstream"
+	"github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/api/types/mount"
+	"github.com/joshuakb2/moby/client"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -255,7 +255,7 @@ func createContainer(ctx context.Context, dockerCli command.Cli, containerCfg *c
 			return "", errors.New("flag --use-api-socket can't be used with a Windows Docker Engine")
 		}
 
-		// hard-code engine socket path until https://github.com/moby/moby/pull/43459 gives us a discovery mechanism
+		// hard-code engine socket path until https://github.com/joshuakb2/moby/pull/43459 gives us a discovery mechanism
 		containerCfg.HostConfig.Mounts = append(containerCfg.HostConfig.Mounts, mount.Mount{
 			Type:        mount.TypeBind,
 			Source:      "/var/run/docker.sock",

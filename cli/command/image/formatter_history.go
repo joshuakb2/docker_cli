@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/image"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/image"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

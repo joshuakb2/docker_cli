@@ -11,8 +11,8 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/templates"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/templates"
 	"github.com/sirupsen/logrus"
 )
 

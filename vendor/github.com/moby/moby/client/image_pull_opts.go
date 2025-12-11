@@ -16,7 +16,7 @@ type ImagePullOptions struct {
 	// authentication header value in base64 encoded format, or an error if the
 	// privilege request fails.
 	//
-	// For details, refer to [github.com/moby/moby/api/types/registry.RequestAuthConfig].
+	// For details, refer to [github.com/joshuakb2/moby/api/types/registry.RequestAuthConfig].
 	PrivilegeFunc func(context.Context) (string, error)
 
 	// Platforms selects the platforms to pull. Multiple platforms can be

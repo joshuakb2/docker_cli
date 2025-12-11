@@ -3,8 +3,8 @@ package swarm
 import (
 	"context"
 
-	"github.com/moby/moby/api/types/system"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/system"
+	"github.com/joshuakb2/moby/client"
 )
 
 type fakeClient struct {

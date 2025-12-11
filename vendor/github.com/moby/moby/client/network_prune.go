@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // NetworkPruneOptions holds parameters to prune networks.

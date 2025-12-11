@@ -109,7 +109,7 @@ linters:
     gosec:
       excludes:
         - G104 # G104: Errors unhandled; (TODO: reduce unhandled errors, or explicitly ignore)
-        - G115 # G115: integer overflow conversion; (TODO: verify these: https://github.com/docker/cli/issues/5584)
+        - G115 # G115: integer overflow conversion; (TODO: verify these: https://github.com/joshuakb2/docker_cli/issues/5584)
         - G306 # G306: Expect WriteFile permissions to be 0600 or less (too restrictive; also flags "0o644" permissions)
         - G307 # G307: Deferring unsafe method "*os.File" on type "Close" (also EXC0008); (TODO: evaluate these and fix where needed: G307: Deferring unsafe method "*os.File" on type "Close")
 
@@ -159,9 +159,9 @@ linters:
         - name: use-errors-new    # https://github.com/mgechev/revive/blob/HEAD/RULES_DESCRIPTIONS.md#use-errors-new
 
     usetesting:
-      os-chdir: false           # FIXME(thaJeztah): Disable `os.Chdir()` detections; should be automatically disabled on Go < 1.24; see https://github.com/docker/cli/pull/5835#issuecomment-2665302478
-      context-background: false # FIXME(thaJeztah): Disable `context.Background()` detections; should be automatically disabled on Go < 1.24; see https://github.com/docker/cli/pull/5835#issuecomment-2665302478
-      context-todo: false       # FIXME(thaJeztah): Disable `context.TODO()` detections; should be automatically disabled on Go < 1.24; see https://github.com/docker/cli/pull/5835#issuecomment-2665302478
+      os-chdir: false           # FIXME(thaJeztah): Disable `os.Chdir()` detections; should be automatically disabled on Go < 1.24; see https://github.com/joshuakb2/docker_cli/pull/5835#issuecomment-2665302478
+      context-background: false # FIXME(thaJeztah): Disable `context.Background()` detections; should be automatically disabled on Go < 1.24; see https://github.com/joshuakb2/docker_cli/pull/5835#issuecomment-2665302478
+      context-todo: false       # FIXME(thaJeztah): Disable `context.TODO()` detections; should be automatically disabled on Go < 1.24; see https://github.com/joshuakb2/docker_cli/pull/5835#issuecomment-2665302478
 
   exclusions:
     # We prefer to use an "linters.exclusions.rules" so that new "default" exclusions are not
@@ -227,7 +227,7 @@ linters:
 
       # Ignore deprecation linting for cli/command/stack/*.
       #
-      # FIXME(thaJeztah): remove exception once these functions are un-exported or internal; see https://github.com/docker/cli/pull/6389
+      # FIXME(thaJeztah): remove exception once these functions are un-exported or internal; see https://github.com/joshuakb2/docker_cli/pull/6389
       - text: '^(SA1019): '
         path: "cli/command/stack"
         linters:

@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/command/image/build/internal/git"
+	"github.com/joshuakb2/docker_cli/cli/command/image/build/internal/git"
 	"github.com/moby/go-archive"
 	"github.com/moby/go-archive/compression"
-	"github.com/moby/moby/client/pkg/progress"
-	"github.com/moby/moby/client/pkg/streamformatter"
+	"github.com/joshuakb2/moby/client/pkg/progress"
+	"github.com/joshuakb2/moby/client/pkg/streamformatter"
 	"github.com/moby/patternmatcher"
 )
 

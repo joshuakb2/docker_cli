@@ -9,7 +9,7 @@ import (
 
 	"github.com/containerd/errdefs"
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/manifest/types"
+	"github.com/joshuakb2/docker_cli/cli/manifest/types"
 	"github.com/docker/distribution/manifest/manifestlist"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

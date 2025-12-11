@@ -10,8 +10,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/docker/cli/cli/command/formatter/tabwriter"
-	"github.com/docker/cli/templates"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter/tabwriter"
+	"github.com/joshuakb2/docker_cli/templates"
 )
 
 // Format keys used to specify certain kinds of output formats

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/client"
 )
 
 type stats struct {
@@ -234,7 +234,7 @@ func calculateNetwork(network map[string]container.NetworkStats) (float64, float
 // * https://github.com/containerd/cri/commit/6b8846cdf8b8c98c1d965313d66bc8489166059a
 //
 // On Docker 19.03 and older, the result was `mem.Usage - mem.Stats["cache"]`.
-// See https://github.com/moby/moby/issues/40727 for the background.
+// See https://github.com/joshuakb2/moby/issues/40727 for the background.
 func calculateMemUsageUnixNoCache(mem container.MemoryStats) float64 {
 	// cgroup v1
 	if v, isCgroup1 := mem.Stats["total_inactive_file"]; isCgroup1 && v < mem.Usage {

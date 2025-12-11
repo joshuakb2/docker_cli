@@ -4,7 +4,7 @@ import (
 	"time"
 
 	dockerspec "github.com/moby/docker-image-spec/specs-go/v1"
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // MinimumDuration puts a minimum on user configured duration.

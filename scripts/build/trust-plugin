@@ -14,7 +14,7 @@ export CGO_ENABLED=0
 source ./scripts/build/.variables
 
 GO_LDFLAGS="${GO_LDFLAGS:-}"
-GO_LDFLAGS="$GO_LDFLAGS -X \"github.com/docker/cli/cmd/docker-trust/internal/version.Version=${VERSION}\""
+GO_LDFLAGS="$GO_LDFLAGS -X \"github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/version.Version=${VERSION}\""
 
 if [ "$CGO_ENABLED" = "1" ] && [ "$(go env GOOS)" != "windows" ]; then
   GO_BUILDTAGS="$GO_BUILDTAGS pkcs11"

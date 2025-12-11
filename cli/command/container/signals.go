@@ -5,7 +5,7 @@ import (
 	"os"
 	gosignal "os/signal"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 	"github.com/moby/sys/signal"
 	"github.com/sirupsen/logrus"
 )

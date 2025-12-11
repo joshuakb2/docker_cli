@@ -179,7 +179,7 @@ The `--squash` option has a number of known limitations:
   you can't parallelize downloading a single layer.
 - When attempting to squash an image that doesn't make changes to the
   filesystem (for example, the Dockerfile only contains `ENV` instructions),
-  the squash step will fail (see [issue #33823](https://github.com/moby/moby/issues/33823)).
+  the squash step will fail (see [issue #33823](https://github.com/joshuakb2/moby/issues/33823)).
 
 #### Prerequisites
 

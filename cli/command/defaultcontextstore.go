@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/docker/cli/cli/context/docker"
-	"github.com/docker/cli/cli/context/store"
-	cliflags "github.com/docker/cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/cli/context/docker"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
+	cliflags "github.com/joshuakb2/docker_cli/cli/flags"
 )
 
 const (

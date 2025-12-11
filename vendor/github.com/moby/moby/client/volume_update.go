@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/api/types/volume"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/volume"
 )
 
 // VolumeUpdateOptions holds options for [Client.VolumeUpdate].

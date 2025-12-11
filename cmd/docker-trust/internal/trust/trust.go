@@ -16,13 +16,13 @@ import (
 	"time"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cmd/docker-trust/internal/registry"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/registry"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/auth/challenge"
 	"github.com/docker/distribution/registry/client/transport"
 	"github.com/docker/go-connections/tlsconfig"
-	registrytypes "github.com/moby/moby/api/types/registry"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 	"github.com/theupdateframework/notary"
@@ -351,7 +351,7 @@ func GetImageReferencesAndAuth(ctx context.Context,
 	// Resolve the Repository name from fqn to RepositoryInfo, and create an
 	// IndexInfo. Docker Content Trust uses the IndexInfo.Official field to
 	// select the right domain for Docker Hub's Notary server;
-	// https://github.com/docker/cli/blob/v28.4.0/cli/trust/trust.go#L65-L79
+	// https://github.com/joshuakb2/docker_cli/blob/v28.4.0/cli/trust/trust.go#L65-L79
 	indexInfo := registry.NewIndexInfo(ref)
 	authConfig := authResolver(ctx, indexInfo)
 	return ImageRefAndAuth{

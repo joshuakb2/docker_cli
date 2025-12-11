@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/moby/moby/client/internal/timestamp"
+	"github.com/joshuakb2/moby/client/internal/timestamp"
 )
 
 // TaskLogsOptions holds parameters to filter logs with.
@@ -33,7 +33,7 @@ type TaskLogsResult interface {
 // The underlying [io.ReadCloser] is automatically closed if the context is canceled,
 func (cli *Client) TaskLogs(ctx context.Context, taskID string, options TaskLogsOptions) (TaskLogsResult, error) {
 	// TODO(thaJeztah): this function needs documentation about the format of ths stream (similar to for container logs)
-	// TODO(thaJeztah): migrate CLI utilities to the client where suitable; https://github.com/docker/cli/blob/v29.0.0-rc.1/cli/command/service/logs.go#L73-L348
+	// TODO(thaJeztah): migrate CLI utilities to the client where suitable; https://github.com/joshuakb2/docker_cli/blob/v29.0.0-rc.1/cli/command/service/logs.go#L73-L348
 
 	query := url.Values{}
 	if options.ShowStdout {

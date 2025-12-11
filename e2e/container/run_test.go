@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/creack/pty"
-	"github.com/docker/cli/e2e/internal/fixtures"
-	"github.com/docker/cli/internal/test/environment"
-	"github.com/moby/moby/client/pkg/versions"
+	"github.com/joshuakb2/docker_cli/e2e/internal/fixtures"
+	"github.com/joshuakb2/docker_cli/internal/test/environment"
+	"github.com/joshuakb2/moby/client/pkg/versions"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/golden"
@@ -73,7 +73,7 @@ func TestRunAttach(t *testing.T) {
 	}
 }
 
-// Regression test for https://github.com/docker/cli/issues/5053
+// Regression test for https://github.com/joshuakb2/docker_cli/issues/5053
 func TestRunInvalidEntrypointWithAutoremove(t *testing.T) {
 	environment.SkipIfDaemonNotLinux(t)
 

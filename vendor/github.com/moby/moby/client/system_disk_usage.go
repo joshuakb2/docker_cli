@@ -7,12 +7,12 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/moby/moby/api/types/build"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/image"
-	"github.com/moby/moby/api/types/system"
-	"github.com/moby/moby/api/types/volume"
-	"github.com/moby/moby/client/pkg/versions"
+	"github.com/joshuakb2/moby/api/types/build"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/image"
+	"github.com/joshuakb2/moby/api/types/system"
+	"github.com/joshuakb2/moby/api/types/volume"
+	"github.com/joshuakb2/moby/client/pkg/versions"
 )
 
 // DiskUsageOptions holds parameters for [Client.DiskUsage] operations.

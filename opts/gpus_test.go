@@ -3,7 +3,7 @@ package opts
 import (
 	"testing"
 
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/moby/moby/api/types/image"
+	"github.com/joshuakb2/moby/api/types/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

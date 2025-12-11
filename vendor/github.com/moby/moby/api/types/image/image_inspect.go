@@ -2,7 +2,7 @@ package image
 
 import (
 	dockerspec "github.com/moby/docker-image-spec/specs-go/v1"
-	"github.com/moby/moby/api/types/storage"
+	"github.com/joshuakb2/moby/api/types/storage"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

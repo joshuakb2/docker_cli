@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/moby/moby/api/types/plugin"
+	"github.com/joshuakb2/moby/api/types/plugin"
 )
 
 // PluginInspectOptions holds parameters to inspect a plugin.

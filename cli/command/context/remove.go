@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
 	"github.com/spf13/cobra"
 )
 

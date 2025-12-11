@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/docker/cli/internal/test/network"
-	networktypes "github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/internal/test/network"
+	networktypes "github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 )
 

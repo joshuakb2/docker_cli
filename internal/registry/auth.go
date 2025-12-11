@@ -12,7 +12,7 @@ import (
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/auth/challenge"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/registry"
 )
 
 // AuthClientID is used the ClientID used for the token server

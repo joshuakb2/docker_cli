@@ -3,7 +3,7 @@ package cli
 import (
 	"testing"
 
-	"github.com/docker/cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/spf13/cobra"
 	"gotest.tools/v3/assert"

@@ -9,10 +9,10 @@ import (
 	"log"
 	"os"
 
-	clidocstool "github.com/docker/cli-docs-tool"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/commands"
+	clidocstool "github.com/joshuakb2/docker_cli-docs-tool"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/commands"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

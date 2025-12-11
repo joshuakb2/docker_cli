@@ -6,8 +6,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/moby/moby/api/types/build"
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/build"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // PingOptions holds options for [client.Ping].

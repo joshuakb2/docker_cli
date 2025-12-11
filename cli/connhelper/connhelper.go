@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/cli/cli/connhelper/commandconn"
-	"github.com/docker/cli/cli/connhelper/ssh"
+	"github.com/joshuakb2/docker_cli/cli/connhelper/commandconn"
+	"github.com/joshuakb2/docker_cli/cli/connhelper/ssh"
 )
 
 // ConnectionHelper allows to connect to a remote host with custom stream provider binary.

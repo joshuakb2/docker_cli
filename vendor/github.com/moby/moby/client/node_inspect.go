@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // NodeInspectOptions holds parameters to inspect nodes with.

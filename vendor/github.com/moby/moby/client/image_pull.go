@@ -9,9 +9,9 @@ import (
 
 	cerrdefs "github.com/containerd/errdefs"
 	"github.com/distribution/reference"
-	"github.com/moby/moby/api/types/jsonstream"
-	"github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/client/internal"
+	"github.com/joshuakb2/moby/api/types/jsonstream"
+	"github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/client/internal"
 )
 
 type ImagePullResponse interface {

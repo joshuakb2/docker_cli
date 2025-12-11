@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/docker/cli/internal/test/builders"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/internal/test/builders"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 type fakeClient struct {

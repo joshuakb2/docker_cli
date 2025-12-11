@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 )
 
 const containerWaitErrorMsgLimit = 2 * 1024 /* Max: 2KiB */

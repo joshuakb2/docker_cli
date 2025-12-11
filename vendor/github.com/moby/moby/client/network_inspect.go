@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // NetworkInspectResult contains the result of a network inspection.

@@ -16,7 +16,7 @@ ENV GOTOOLCHAIN=local
 ENV GO111MODULE=auto
 ENV CGO_ENABLED=0
 ENV GOGC=75
-WORKDIR /go/src/github.com/docker/cli
+WORKDIR /go/src/github.com/joshuakb2/docker_cli
 COPY --link --from=golangci-lint /usr/bin/golangci-lint /usr/bin/golangci-lint
 RUN --mount=type=bind,target=.,rw \
     --mount=type=cache,target=/root/.cache \

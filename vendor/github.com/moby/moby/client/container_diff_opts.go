@@ -1,6 +1,6 @@
 package client
 
-import "github.com/moby/moby/api/types/container"
+import "github.com/joshuakb2/moby/api/types/container"
 
 // ContainerDiffOptions holds parameters to show differences in a container filesystem.
 type ContainerDiffOptions struct {

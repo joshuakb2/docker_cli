@@ -6,9 +6,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/docker/cli/cli/compose/convert"
-	"github.com/docker/cli/opts"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/compose/convert"
+	"github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/client"
 )
 
 // validateStackName checks if the provided string is a valid stack name (namespace).

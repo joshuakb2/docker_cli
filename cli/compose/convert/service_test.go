@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	composetypes "github.com/docker/cli/cli/compose/types"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

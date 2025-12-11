@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )
@@ -69,7 +69,7 @@ func newInitCommand(dockerCLI command.Cli) *cobra.Command {
 func runInit(ctx context.Context, dockerCLI command.Cli, flags *pflag.FlagSet, opts initOptions) error {
 	apiClient := dockerCLI.Client()
 
-	// TODO(thaJeztah): change opts.defaultAddrPools a []netip.Prefix; see https://github.com/docker/cli/pull/6545#discussion_r2420361609
+	// TODO(thaJeztah): change opts.defaultAddrPools a []netip.Prefix; see https://github.com/joshuakb2/docker_cli/pull/6545#discussion_r2420361609
 	defaultAddrPool := make([]netip.Prefix, 0, len(opts.defaultAddrPools))
 	for _, p := range opts.defaultAddrPools {
 		if len(p.IP) == 0 {

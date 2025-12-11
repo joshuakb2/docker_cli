@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
 )
 
 const (

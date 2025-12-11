@@ -7,12 +7,12 @@ import (
 	"io"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/swarm/progress"
-	"github.com/docker/cli/internal/jsonstream"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/swarm/progress"
+	"github.com/joshuakb2/docker_cli/internal/jsonstream"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

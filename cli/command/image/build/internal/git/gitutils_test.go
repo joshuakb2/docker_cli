@@ -366,8 +366,8 @@ func TestValidGitTransport(t *testing.T) {
 
 func TestGitInvalidRef(t *testing.T) {
 	gitUrls := []string{
-		"git://github.com/moby/moby#--foo bar",
-		"git@github.com/moby/moby#--upload-pack=sleep;:",
+		"git://github.com/joshuakb2/moby#--foo bar",
+		"git@github.com/joshuakb2/moby#--upload-pack=sleep;:",
 		"git@g.com:a/b.git#-B",
 		"git@g.com:a/b.git#with space",
 	}

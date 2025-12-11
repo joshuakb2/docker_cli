@@ -3,12 +3,12 @@ package trust
 import (
 	"fmt"
 
-	"github.com/docker/cli-docs-tool/annotation"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli-plugins/plugin"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/debug"
-	cliflags "github.com/docker/cli/cli/flags"
+	"github.com/joshuakb2/docker_cli-docs-tool/annotation"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli-plugins/plugin"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/debug"
+	cliflags "github.com/joshuakb2/docker_cli/cli/flags"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )
@@ -58,7 +58,7 @@ func NewRootCmd(name string, isPlugin bool, dockerCLI *command.DockerCli) *cobra
 	}
 	if !isPlugin {
 		// match plugin behavior for standalone mode
-		// https://github.com/docker/cli/blob/6c9eb708fa6d17765d71965f90e1c59cea686ee9/cli-plugins/plugin/plugin.go#L117-L127
+		// https://github.com/joshuakb2/docker_cli/blob/6c9eb708fa6d17765d71965f90e1c59cea686ee9/cli-plugins/plugin/plugin.go#L117-L127
 		cmd.SilenceUsage = true
 		cmd.SilenceErrors = true
 		cmd.TraverseChildren = true

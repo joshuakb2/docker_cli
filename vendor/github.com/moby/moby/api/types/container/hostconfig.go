@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/blkiodev"
-	"github.com/moby/moby/api/types/mount"
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/blkiodev"
+	"github.com/joshuakb2/moby/api/types/mount"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // CgroupnsMode represents the cgroup namespace mode of the container

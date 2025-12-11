@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command"
 	"gotest.tools/v3/assert"
 )
 

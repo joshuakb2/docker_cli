@@ -17,12 +17,12 @@ func statDifferent(oldStat fs.FileInfo, newStat fs.FileInfo) bool {
 		oldSys.Gid != newSys.Gid ||
 		oldSys.Rdev != newSys.Rdev ||
 		// Don't look at size or modification time for dirs, its not a good
-		// measure of change. See https://github.com/moby/moby/issues/9874
+		// measure of change. See https://github.com/joshuakb2/moby/issues/9874
 		// for a description of the issue with modification time, and
-		// https://github.com/moby/moby/pull/11422 for the change.
+		// https://github.com/joshuakb2/moby/pull/11422 for the change.
 		// (Note that in the Windows implementation of this function,
 		// modification time IS taken as a change). See
-		// https://github.com/moby/moby/pull/37982 for more information.
+		// https://github.com/joshuakb2/moby/pull/37982 for more information.
 		(!oldStat.Mode().IsDir() &&
 			(!sameFsTime(oldStat.ModTime(), newStat.ModTime()) || (oldStat.Size() != newStat.Size()))) {
 		return true

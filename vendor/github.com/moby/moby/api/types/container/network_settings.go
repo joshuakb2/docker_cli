@@ -1,7 +1,7 @@
 package container
 
 import (
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // NetworkSettings exposes the network settings in the api

@@ -9,12 +9,12 @@ import (
 	"syscall"
 
 	cerrdefs "github.com/containerd/errdefs"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli-plugins/metadata"
-	"github.com/docker/cli/cli-plugins/plugin"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cmd/docker-trust/internal/version"
-	"github.com/docker/cli/cmd/docker-trust/trust"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli-plugins/plugin"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/version"
+	"github.com/joshuakb2/docker_cli/cmd/docker-trust/trust"
 	"go.opentelemetry.io/otel"
 )
 

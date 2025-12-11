@@ -6,7 +6,7 @@ import (
 
 	"github.com/distribution/reference"
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/image"
+	"github.com/joshuakb2/moby/api/types/image"
 )
 
 const (

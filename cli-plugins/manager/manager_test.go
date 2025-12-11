@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/containerd/errdefs"
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/internal/test"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/internal/test"
 	"github.com/spf13/cobra"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
@@ -86,7 +86,7 @@ func TestListPluginCandidatesEmpty(t *testing.T) {
 	assert.Assert(t, len(candidates) == 0)
 }
 
-// Regression test for https://github.com/docker/cli/issues/5643.
+// Regression test for https://github.com/joshuakb2/docker_cli/issues/5643.
 // Check that inaccessible directories that come before accessible ones are ignored
 // and do not prevent the latter from being processed.
 func TestListPluginCandidatesInaccesibleDir(t *testing.T) {

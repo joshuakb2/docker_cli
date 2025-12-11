@@ -8,7 +8,7 @@
 //
 // [path/filepath/symlink_windows.go]: https://github.com/golang/go/blob/go1.4.2/src/path/filepath/symlink_windows.go
 // [path/filepath/symlink.go]: https://github.com/golang/go/blob/go1.4.2/src/path/filepath/symlink.go
-// [docker@9b648df]: https://github.com/moby/moby/commit/9b648dfac6453de5944ee4bb749115d85a253a05
+// [docker@9b648df]: https://github.com/joshuakb2/moby/commit/9b648dfac6453de5944ee4bb749115d85a253a05
 
 package symlink
 

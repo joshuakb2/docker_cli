@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/cli/config/types"
+	"github.com/joshuakb2/docker_cli/cli/config/types"
 	"github.com/docker/docker-credential-helpers/client"
 	"github.com/docker/docker-credential-helpers/credentials"
 	"gotest.tools/v3/assert"

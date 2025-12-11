@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // TaskInspectOptions contains options for inspecting a task.

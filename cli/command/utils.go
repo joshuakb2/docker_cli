@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/cli/cli/config"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/moby/client"
 )
 
 // PruneFilters merges prune filters specified in config.json with those specified

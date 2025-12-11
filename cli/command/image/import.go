@@ -6,12 +6,12 @@ import (
 	"strings"
 
 	"github.com/containerd/platforms"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/internal/jsonstream"
-	dockeropts "github.com/docker/cli/opts"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/completion"
+	"github.com/joshuakb2/docker_cli/internal/jsonstream"
+	dockeropts "github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/client"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/spf13/cobra"
 )

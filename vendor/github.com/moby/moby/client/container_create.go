@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	cerrdefs "github.com/containerd/errdefs"
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
@@ -92,7 +92,7 @@ const allCapabilities = "ALL"
 // It is similar to [caps.NormalizeLegacyCapabilities],
 // but performs no validation based on supported capabilities.
 //
-// [caps.NormalizeLegacyCapabilities]: https://github.com/moby/moby/blob/v28.3.2/oci/caps/utils.go#L56
+// [caps.NormalizeLegacyCapabilities]: https://github.com/joshuakb2/moby/blob/v28.3.2/oci/caps/utils.go#L56
 func normalizeCapabilities(caps []string) []string {
 	var normalized []string
 

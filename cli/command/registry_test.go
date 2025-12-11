@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/configfile"
-	configtypes "github.com/docker/cli/cli/config/types"
-	"github.com/moby/moby/api/pkg/authconfig"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	configtypes "github.com/joshuakb2/docker_cli/cli/config/types"
+	"github.com/joshuakb2/moby/api/pkg/authconfig"
+	"github.com/joshuakb2/moby/api/types/registry"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )
@@ -96,7 +96,7 @@ func TestGetDefaultAuthConfig_HelperError(t *testing.T) {
 func TestRetrieveAuthTokenFromImage(t *testing.T) {
 	// configFileContent contains a plain-text "username:password", as stored by
 	// the plain-text store;
-	// https://github.com/docker/cli/blob/v28.0.4/cli/config/configfile/file.go#L218-L229
+	// https://github.com/joshuakb2/docker_cli/blob/v28.0.4/cli/config/configfile/file.go#L218-L229
 	const configFileContent = `{"auths": {
 		"https://index.docker.io/v1/": {"auth": "dXNlcm5hbWU6cGFzc3dvcmQ="},
 		"[::1]": {"auth": "dXNlcm5hbWU6cGFzc3dvcmQ="},

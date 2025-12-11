@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 )
 
 func mockContainerExportResult(content string) client.ContainerExportResult {

@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/moby/moby/api/pkg/stdcopy"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/moby/api/pkg/stdcopy"
+	"github.com/joshuakb2/moby/client"
 	"github.com/moby/term"
 	"github.com/sirupsen/logrus"
 )

@@ -39,6 +39,6 @@ offer a paid security bounty program at this time.
 
 This project uses long-lived branches to maintain releases, and follows
 the maintenance cycle of the Moby project.
-Refer to [BRANCHES-AND-TAGS.md](https://github.com/moby/moby/blob/master/project/BRANCHES-AND-TAGS.md)
+Refer to [BRANCHES-AND-TAGS.md](https://github.com/joshuakb2/moby/blob/master/project/BRANCHES-AND-TAGS.md)
 in the default branch of the moby repository to learn about the current
 maintenance status of each branch.

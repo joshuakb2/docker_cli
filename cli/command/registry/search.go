@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/internal/commands"
-	"github.com/docker/cli/opts"
-	"github.com/moby/moby/api/pkg/authconfig"
-	registrytypes "github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/internal/commands"
+	"github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/api/pkg/authconfig"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

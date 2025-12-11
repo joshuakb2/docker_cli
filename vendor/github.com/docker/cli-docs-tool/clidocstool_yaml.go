@@ -23,7 +23,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/cli-docs-tool/annotation"
+	"github.com/joshuakb2/docker_cli-docs-tool/annotation"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"go.yaml.in/yaml/v3"

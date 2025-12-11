@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli/command/service/internal/genericresource"
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/docker_cli/cli/command/service/internal/genericresource"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // GenericResource is a concept that a user can use to advertise user-defined

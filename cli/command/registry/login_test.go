@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"github.com/creack/pty"
-	configtypes "github.com/docker/cli/cli/config/types"
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/internal/prompt"
-	"github.com/docker/cli/internal/registry"
-	"github.com/docker/cli/internal/test"
-	registrytypes "github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/client"
+	configtypes "github.com/joshuakb2/docker_cli/cli/config/types"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/internal/prompt"
+	"github.com/joshuakb2/docker_cli/internal/registry"
+	"github.com/joshuakb2/docker_cli/internal/test"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"
@@ -246,7 +246,7 @@ func TestRunLogin(t *testing.T) {
 				},
 			},
 		},
-		// Regression test for https://github.com/docker/cli/issues/5382
+		// Regression test for https://github.com/joshuakb2/docker_cli/issues/5382
 		{
 			doc:              "sanitizes server address to remove repo",
 			priorCredentials: map[string]configtypes.AuthConfig{},
@@ -263,7 +263,7 @@ func TestRunLogin(t *testing.T) {
 				},
 			},
 		},
-		// Regression test for https://github.com/docker/cli/issues/5382
+		// Regression test for https://github.com/joshuakb2/docker_cli/issues/5382
 		{
 			doc: "updates credential if server address includes repo",
 			priorCredentials: map[string]configtypes.AuthConfig{

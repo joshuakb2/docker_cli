@@ -9,15 +9,15 @@ import (
 	"strings"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/config/credentials"
-	configtypes "github.com/docker/cli/cli/config/types"
-	"github.com/docker/cli/cli/hints"
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/internal/prompt"
-	"github.com/docker/cli/internal/tui"
-	"github.com/moby/moby/api/pkg/authconfig"
-	registrytypes "github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/config/credentials"
+	configtypes "github.com/joshuakb2/docker_cli/cli/config/types"
+	"github.com/joshuakb2/docker_cli/cli/hints"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/internal/prompt"
+	"github.com/joshuakb2/docker_cli/internal/tui"
+	"github.com/joshuakb2/moby/api/pkg/authconfig"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
 	"github.com/morikuni/aec"
 )
 
@@ -101,9 +101,9 @@ func PromptUserForCredentials(ctx context.Context, cli Cli, argUser, argPassword
 	// On Windows, force the use of the regular OS stdin stream.
 	//
 	// See:
-	// - https://github.com/moby/moby/issues/14336
-	// - https://github.com/moby/moby/issues/14210
-	// - https://github.com/moby/moby/pull/17738
+	// - https://github.com/joshuakb2/moby/issues/14336
+	// - https://github.com/joshuakb2/moby/issues/14210
+	// - https://github.com/joshuakb2/moby/pull/17738
 	//
 	// TODO(thaJeztah): we need to confirm if this special handling is still needed, as we may not be doing this in other places.
 	if runtime.GOOS == "windows" {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/moby/moby/api/types/blkiodev"
+	"github.com/joshuakb2/moby/api/types/blkiodev"
 )
 
 // ValidatorWeightFctType defines a validator function that returns a validated struct and/or an error.

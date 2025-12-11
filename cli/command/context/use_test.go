@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/containerd/errdefs"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/flags"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )
@@ -113,7 +113,7 @@ func TestUseHostOverride(t *testing.T) {
 
 // An empty DOCKER_HOST used to break the 'context use' flow.
 // So we have a test with fewer fakes that tests this flow holistically.
-// https://github.com/docker/cli/issues/3667
+// https://github.com/joshuakb2/docker_cli/issues/3667
 func TestUseHostOverrideEmpty(t *testing.T) {
 	t.Setenv("DOCKER_HOST", "")
 

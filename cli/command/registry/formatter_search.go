@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/cli/cli/command/formatter"
-	registrytypes "github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

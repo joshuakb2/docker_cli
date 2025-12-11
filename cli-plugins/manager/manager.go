@@ -11,10 +11,10 @@ import (
 	"sync"
 
 	"github.com/containerd/errdefs"
-	"github.com/docker/cli/cli-plugins/metadata"
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/debug"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/debug"
 	"github.com/fvbommel/sortorder"
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
@@ -38,7 +38,7 @@ func (e errPluginNotFound) Error() string {
 // 2. Additional plugin directories as configured through [ConfigFile.CLIPluginsExtraDirs].
 // 3. Platform-specific defaultSystemPluginDirs.
 //
-// [ConfigFile.CLIPluginsExtraDirs]: https://pkg.go.dev/github.com/docker/cli@v26.1.4+incompatible/cli/config/configfile#ConfigFile.CLIPluginsExtraDirs
+// [ConfigFile.CLIPluginsExtraDirs]: https://pkg.go.dev/github.com/joshuakb2/docker_cli@v26.1.4+incompatible/cli/config/configfile#ConfigFile.CLIPluginsExtraDirs
 func getPluginDirs(cfg *configfile.ConfigFile) []string {
 	var pluginDirs []string
 

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/cli/command/idresolver"
-	"github.com/moby/moby/api/types/events"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command/completion"
+	"github.com/joshuakb2/docker_cli/cli/command/idresolver"
+	"github.com/joshuakb2/moby/api/types/events"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

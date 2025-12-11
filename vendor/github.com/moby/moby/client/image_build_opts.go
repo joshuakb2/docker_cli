@@ -3,9 +3,9 @@ package client
 import (
 	"io"
 
-	"github.com/moby/moby/api/types/build"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/build"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/registry"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

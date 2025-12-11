@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/docker/go-connections/nat"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/swarm"
 	"github.com/sirupsen/logrus"
 )
 

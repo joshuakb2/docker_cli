@@ -11,14 +11,14 @@ import (
 	"strings"
 
 	"github.com/containerd/errdefs"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/command/idresolver"
-	"github.com/docker/cli/internal/logdetails"
-	"github.com/moby/moby/api/pkg/stdcopy"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/command/idresolver"
+	"github.com/joshuakb2/docker_cli/internal/logdetails"
+	"github.com/joshuakb2/moby/api/pkg/stdcopy"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

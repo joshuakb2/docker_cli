@@ -3,9 +3,9 @@ package registry
 import (
 	"os"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/internal/tui"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/internal/tui"
 )
 
 // maybePrintEnvAuthWarning if the `DOCKER_AUTH_CONFIG` environment variable is

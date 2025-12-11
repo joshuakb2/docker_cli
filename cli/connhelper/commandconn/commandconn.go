@@ -43,7 +43,7 @@ func New(ctx context.Context, cmd string, args ...string) (net.Conn, error) {
 	//
 	// Further details;;
 	//
-	// - https://github.com/docker/cli/pull/3900
+	// - https://github.com/joshuakb2/docker_cli/pull/3900
 	// - https://github.com/docker/compose/issues/9448#issuecomment-1264263721
 	ctx = context.WithoutCancel(ctx)
 	c := commandConn{cmd: exec.CommandContext(ctx, cmd, args...)}

@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
+	"github.com/joshuakb2/docker_cli/internal/test"
 	"gotest.tools/v3/assert"
 )
 

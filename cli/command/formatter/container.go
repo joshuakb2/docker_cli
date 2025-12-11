@@ -14,7 +14,7 @@ import (
 	"github.com/containerd/platforms"
 	"github.com/distribution/reference"
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

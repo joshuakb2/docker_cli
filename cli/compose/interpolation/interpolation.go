@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/cli/cli/compose/template"
+	"github.com/joshuakb2/docker_cli/cli/compose/template"
 )
 
 // Options supported by Interpolate

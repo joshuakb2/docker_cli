@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/manifest/store"
-	"github.com/docker/cli/cli/manifest/types"
-	"github.com/docker/cli/internal/test"
+	"github.com/joshuakb2/docker_cli/cli/manifest/store"
+	"github.com/joshuakb2/docker_cli/cli/manifest/types"
+	"github.com/joshuakb2/docker_cli/internal/test"
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/opencontainers/go-digest"

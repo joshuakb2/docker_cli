@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/docker/cli/cli/streams"
-	"github.com/moby/moby/api/types/jsonstream"
-	"github.com/moby/moby/client/pkg/jsonmessage"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/moby/api/types/jsonstream"
+	"github.com/joshuakb2/moby/client/pkg/jsonmessage"
 )
 
 type (

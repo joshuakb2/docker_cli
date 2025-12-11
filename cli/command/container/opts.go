@@ -18,13 +18,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/internal/lazyregexp"
-	"github.com/docker/cli/internal/volumespec"
-	"github.com/docker/cli/opts"
+	"github.com/joshuakb2/docker_cli/internal/lazyregexp"
+	"github.com/joshuakb2/docker_cli/internal/volumespec"
+	"github.com/joshuakb2/docker_cli/opts"
 	"github.com/docker/go-connections/nat"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/mount"
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/mount"
+	"github.com/joshuakb2/moby/api/types/network"
 	"github.com/spf13/pflag"
 	cdi "tags.cncf.io/container-device-interface/pkg/parser"
 )
@@ -34,7 +34,7 @@ const (
 	//  from the daemon, or require "local" profiles to be an absolute path or
 	//  relative paths starting with "./". The daemon-config has consts for this
 	//  but we don't want to import that package:
-	//  https://github.com/moby/moby/blob/v23.0.0/daemon/config/config.go#L63-L67
+	//  https://github.com/joshuakb2/moby/blob/v23.0.0/daemon/config/config.go#L63-L67
 
 	// seccompProfileDefault is the built-in default seccomp profile.
 	seccompProfileDefault = "builtin"

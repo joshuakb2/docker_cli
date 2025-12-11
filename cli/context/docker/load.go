@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/connhelper"
-	"github.com/docker/cli/cli/context"
-	"github.com/docker/cli/cli/context/store"
+	"github.com/joshuakb2/docker_cli/cli/connhelper"
+	"github.com/joshuakb2/docker_cli/cli/context"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
 	"github.com/docker/go-connections/tlsconfig"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 )
 
 // EndpointMeta is a typed wrapper around a context-store generic endpoint describing
@@ -96,7 +96,7 @@ func (ep *Endpoint) ClientOpts() ([]client.Opt, error) {
 			// need to configure TLS for a socket connection.
 			//
 			// TODO(thaJeztah); make resolveDockerEndpoint and resolveDefaultDockerEndpoint not load TLS data,
-			//  and load TLS files lazily; see https://github.com/docker/cli/pull/1581
+			//  and load TLS files lazily; see https://github.com/joshuakb2/docker_cli/pull/1581
 			if !isSocket(ep.Host) {
 				tlsConfig, err := ep.tlsConfig()
 				if err != nil {

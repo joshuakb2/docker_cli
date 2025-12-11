@@ -1,6 +1,6 @@
 package client
 
-import "github.com/moby/moby/api/types/image"
+import "github.com/joshuakb2/moby/api/types/image"
 
 // ImageListOptions holds parameters to list images with.
 type ImageListOptions struct {

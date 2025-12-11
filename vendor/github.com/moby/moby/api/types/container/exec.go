@@ -1,6 +1,6 @@
 package container
 
-import "github.com/moby/moby/api/types/common"
+import "github.com/joshuakb2/moby/api/types/common"
 
 // ExecCreateResponse is the response for a successful exec-create request.
 // It holds the ID of the exec that was created.

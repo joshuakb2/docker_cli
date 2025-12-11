@@ -12,9 +12,9 @@ import (
 
 	cerrdefs "github.com/containerd/errdefs"
 	"github.com/distribution/reference"
-	"github.com/moby/moby/api/types/jsonstream"
-	"github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/client/internal"
+	"github.com/joshuakb2/moby/api/types/jsonstream"
+	"github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/client/internal"
 )
 
 type ImagePushResponse interface {
@@ -93,6 +93,6 @@ func (cli *Client) tryImagePush(ctx context.Context, imageID string, query url.V
 	//
 	// We use [http.NoBody], which gets marshaled to an empty JSON document.
 	//
-	// see: https://github.com/moby/moby/commit/ea29dffaa541289591aa44fa85d2a596ce860e16
+	// see: https://github.com/joshuakb2/moby/commit/ea29dffaa541289591aa44fa85d2a596ce860e16
 	return cli.post(ctx, "/images/"+imageID+"/push", query, http.NoBody, hdr)
 }

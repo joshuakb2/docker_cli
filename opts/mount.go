@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/docker/go-units"
-	mounttypes "github.com/moby/moby/api/types/mount"
+	mounttypes "github.com/joshuakb2/moby/api/types/mount"
 )
 
 // MountOpt is a Value type for parsing mounts
@@ -127,7 +127,7 @@ func (m *MountOpt) Set(value string) error {
 			case "readonly": // force recursively read-only, or raise an error
 				bindOptions().ReadOnlyForceRecursive = true
 				// TODO: implicitly set propagation and error if the user specifies a propagation in a future refactor/UX polish pass
-				// https://github.com/docker/cli/pull/4316#discussion_r1341974730
+				// https://github.com/joshuakb2/docker_cli/pull/4316#discussion_r1341974730
 			default:
 				return fmt.Errorf(`invalid value for %s: %s (must be "enabled", "disabled", "writable", or "readonly")`, key, val)
 			}

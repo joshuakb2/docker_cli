@@ -3,7 +3,7 @@ package trust
 import (
 	"testing"
 
-	"github.com/docker/cli/cmd/docker-trust/internal/trust"
+	"github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/trust"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/tuf/data"
 	"gotest.tools/v3/assert"

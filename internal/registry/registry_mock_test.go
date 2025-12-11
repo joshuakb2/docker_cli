@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/containerd/log"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/registry"
 	"gotest.tools/v3/assert"
 )
 

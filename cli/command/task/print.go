@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/command/idresolver"
-	"github.com/docker/cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/command/idresolver"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
 	"github.com/fvbommel/sortorder"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 type tasksSortable []swarm.Task

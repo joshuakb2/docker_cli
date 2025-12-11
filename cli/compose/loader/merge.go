@@ -9,7 +9,7 @@ import (
 	"sort"
 
 	"dario.cat/mergo"
-	"github.com/docker/cli/cli/compose/types"
+	"github.com/joshuakb2/docker_cli/cli/compose/types"
 )
 
 type specials struct {

@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
 	"github.com/moby/go-archive"
 	"github.com/moby/go-archive/compression"
-	"github.com/moby/moby/api/types/plugin"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/plugin"
+	"github.com/joshuakb2/moby/client"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

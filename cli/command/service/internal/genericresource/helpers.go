@@ -1,7 +1,7 @@
 package genericresource
 
 import (
-	api "github.com/moby/moby/api/types/swarm"
+	api "github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // NewSet creates a set object

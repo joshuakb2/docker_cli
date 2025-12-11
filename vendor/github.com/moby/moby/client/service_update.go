@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // ServiceUpdateOptions contains the options to be used for updating services.

@@ -5,14 +5,14 @@ import (
 	"io"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/context/docker"
-	"github.com/docker/cli/cli/context/store"
-	manifeststore "github.com/docker/cli/cli/manifest/store"
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/internal/registryclient"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/context/docker"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
+	manifeststore "github.com/joshuakb2/docker_cli/cli/manifest/store"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/internal/registryclient"
+	"github.com/joshuakb2/moby/client"
 )
 
 // FakeCli emulates the default DockerCli

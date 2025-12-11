@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	composetypes "github.com/docker/cli/cli/compose/types"
-	"github.com/moby/moby/api/types/mount"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
+	"github.com/joshuakb2/moby/api/types/mount"
 )
 
 type volumes map[string]composetypes.VolumeConfig

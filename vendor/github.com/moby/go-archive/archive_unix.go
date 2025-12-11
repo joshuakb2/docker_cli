@@ -36,7 +36,7 @@ func chmodTarEntry(perm os.FileMode) os.FileMode {
 func getInodeFromStat(stat interface{}) (uint64, error) {
 	s, ok := stat.(*syscall.Stat_t)
 	if !ok {
-		// FIXME(thaJeztah): this should likely return an error; see https://github.com/moby/moby/pull/49493#discussion_r1979152897
+		// FIXME(thaJeztah): this should likely return an error; see https://github.com/joshuakb2/moby/pull/49493#discussion_r1979152897
 		return 0, nil
 	}
 	return s.Ino, nil

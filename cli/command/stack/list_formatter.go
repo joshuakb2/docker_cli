@@ -3,7 +3,7 @@ package stack
 import (
 	"strconv"
 
-	"github.com/docker/cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
 )
 
 // stackTableFormat is the default Swarm stack format

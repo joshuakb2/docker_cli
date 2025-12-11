@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/cli/streams"
 	"github.com/moby/term"
 )
 

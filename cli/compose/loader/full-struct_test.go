@@ -6,7 +6,7 @@ package loader
 import (
 	"time"
 
-	"github.com/docker/cli/cli/compose/types"
+	"github.com/joshuakb2/docker_cli/cli/compose/types"
 )
 
 func fullExampleConfig(workingDir, homeDir string) *types.Config {

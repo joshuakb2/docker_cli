@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	servicecli "github.com/docker/cli/cli/command/service"
-	composetypes "github.com/docker/cli/cli/compose/types"
-	"github.com/docker/cli/opts"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	servicecli "github.com/joshuakb2/docker_cli/cli/command/service"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
+	"github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

@@ -3,9 +3,9 @@ package system
 import (
 	"context"
 
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/events"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/events"
+	"github.com/joshuakb2/moby/client"
 )
 
 type fakeClient struct {

@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 // IDResolver provides ID to Name resolution.

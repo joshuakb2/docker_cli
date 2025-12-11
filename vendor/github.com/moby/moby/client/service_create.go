@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/distribution/reference"
-	"github.com/moby/moby/api/types/registry"
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/swarm"
 	"github.com/opencontainers/go-digest"
 )
 

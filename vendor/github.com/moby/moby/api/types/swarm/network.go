@@ -3,7 +3,7 @@ package swarm
 import (
 	"net/netip"
 
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // Endpoint represents an endpoint.

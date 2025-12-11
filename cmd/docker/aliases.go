@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	pluginmanager "github.com/docker/cli/cli-plugins/manager"
-	"github.com/docker/cli/cli/command"
+	pluginmanager "github.com/joshuakb2/docker_cli/cli-plugins/manager"
+	"github.com/joshuakb2/docker_cli/cli/command"
 	"github.com/spf13/cobra"
 )
 

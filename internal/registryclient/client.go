@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/distribution/reference"
-	manifesttypes "github.com/docker/cli/cli/manifest/types"
+	manifesttypes "github.com/joshuakb2/docker_cli/cli/manifest/types"
 	"github.com/docker/distribution"
 	distributionclient "github.com/docker/distribution/registry/client"
-	registrytypes "github.com/moby/moby/api/types/registry"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/moby/moby/api/types/volume"
+	"github.com/joshuakb2/moby/api/types/volume"
 )
 
 // VolumeInspectOptions holds options for inspecting a volume.

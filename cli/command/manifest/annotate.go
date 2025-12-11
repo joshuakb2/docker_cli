@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/errdefs"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/manifest/store"
-	"github.com/docker/cli/internal/registryclient"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli/manifest/store"
+	"github.com/joshuakb2/docker_cli/internal/registryclient"
+	"github.com/joshuakb2/moby/api/types/registry"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/spf13/cobra"
 )

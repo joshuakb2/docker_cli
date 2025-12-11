@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/network"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

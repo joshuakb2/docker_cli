@@ -38,7 +38,7 @@ FROM --platform=$BUILDPLATFORM golang:${GO_VERSION}-alpine${ALPINE_VERSION} AS b
 ENV GOTOOLCHAIN=local
 COPY --link --from=xx / /
 RUN apk add --no-cache bash clang lld llvm file git git-daemon
-WORKDIR /go/src/github.com/docker/cli
+WORKDIR /go/src/github.com/joshuakb2/docker_cli
 
 FROM build-base-alpine AS build-alpine
 ARG TARGETPLATFORM
@@ -49,7 +49,7 @@ FROM --platform=$BUILDPLATFORM golang:${GO_VERSION}-${BASE_DEBIAN_DISTRO} AS bui
 ENV GOTOOLCHAIN=local
 COPY --link --from=xx / /
 RUN apt-get update && apt-get install --no-install-recommends -y bash clang lld llvm file
-WORKDIR /go/src/github.com/docker/cli
+WORKDIR /go/src/github.com/joshuakb2/docker_cli
 
 FROM build-base-debian AS build-debian
 ARG TARGETPLATFORM
@@ -129,7 +129,7 @@ COPY --link --from=buildx  /buildx         /usr/libexec/docker/cli-plugins/docke
 COPY --link --from=compose /docker-compose /usr/libexec/docker/cli-plugins/docker-compose
 COPY --link . .
 ENV DOCKER_BUILDKIT=1
-ENV PATH=/go/src/github.com/docker/cli/build:$PATH
+ENV PATH=/go/src/github.com/joshuakb2/docker_cli/build:$PATH
 CMD ["./scripts/test/e2e/entry"]
 
 FROM build-base-${BASE_VARIANT} AS dev

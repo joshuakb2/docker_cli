@@ -14,18 +14,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/config/configfile"
-	dcontext "github.com/docker/cli/cli/context"
-	"github.com/docker/cli/cli/context/docker"
-	"github.com/docker/cli/cli/context/store"
-	"github.com/docker/cli/cli/debug"
-	cliflags "github.com/docker/cli/cli/flags"
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/cli/version"
-	dopts "github.com/docker/cli/opts"
-	"github.com/moby/moby/api/types/build"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	dcontext "github.com/joshuakb2/docker_cli/cli/context"
+	"github.com/joshuakb2/docker_cli/cli/context/docker"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
+	"github.com/joshuakb2/docker_cli/cli/debug"
+	cliflags "github.com/joshuakb2/docker_cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/cli/version"
+	dopts "github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/moby/api/types/build"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 
@@ -241,7 +241,7 @@ func (cli *DockerCli) Initialize(opts *cliflags.ClientOptions, ops ...CLIOption)
 		// the current context (which may mean; connecting with the wrong
 		// endpoint and/or TLS Config to be missing).
 		//
-		// [EndpointFromContext]: https://github.com/docker/cli/blob/33494921b80fd0b5a06acc3a34fa288de4bb2e6b/cli/context/docker/load.go#L139-L149
+		// [EndpointFromContext]: https://github.com/joshuakb2/docker_cli/blob/33494921b80fd0b5a06acc3a34fa288de4bb2e6b/cli/context/docker/load.go#L139-L149
 		if err := WithDefaultContextStoreConfig()(cli); err != nil {
 			return err
 		}

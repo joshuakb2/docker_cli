@@ -1,5 +1,5 @@
 #
-# github.com/docker/cli
+# github.com/joshuakb2/docker_cli
 #
 
 # Sets the name of the company that produced the windows binary.
@@ -105,7 +105,7 @@ completion: ## generate and install the shell-completion scripts
 # consider installing in per-user (~/.config, XDG_DATA_DIR) paths instead, but
 # this will add more complexity.
 #
-# See https://github.com/docker/cli/pull/5770#discussion_r1927772710
+# See https://github.com/joshuakb2/docker_cli/pull/5770#discussion_r1927772710
 	install -D -p -m 0644 ./build/completion/bash/docker /usr/share/bash-completion/completions/docker
 	install -D -p -m 0644 ./build/completion/fish/docker.fish debian/docker-ce-cli/usr/share/fish/vendor_completions.d/docker.fish
 	install -D -p -m 0644 ./build/completion/zsh/_docker debian/docker-ce-cli/usr/share/zsh/vendor-completions/_docker

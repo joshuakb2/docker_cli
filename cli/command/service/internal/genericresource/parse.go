@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"strings"
 
-	api "github.com/moby/moby/api/types/swarm"
+	api "github.com/joshuakb2/moby/api/types/swarm"
 )
 
 func newParseError(format string, args ...any) error {

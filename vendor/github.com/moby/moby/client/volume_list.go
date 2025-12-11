@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/volume"
+	"github.com/joshuakb2/moby/api/types/volume"
 )
 
 // VolumeListOptions holds parameters to list volumes.

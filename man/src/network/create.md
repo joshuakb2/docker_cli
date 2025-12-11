@@ -41,7 +41,7 @@ name conflicts.
 You should create overlay networks with `/24` blocks (the default), which limits
 you to 256 IP addresses, when you create networks using the default VIP-based
 endpoint-mode. This recommendation addresses
-[limitations with swarm mode](https://github.com/moby/moby/issues/30820). If you
+[limitations with swarm mode](https://github.com/joshuakb2/moby/issues/30820). If you
 need more than 256 IP addresses, do not increase the IP block size. You can
 either use `dnsrr` endpoint mode with an external load balancer, or use multiple
 smaller overlay networks. See

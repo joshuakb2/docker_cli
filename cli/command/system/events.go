@@ -9,14 +9,14 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	flagsHelper "github.com/docker/cli/cli/flags"
-	"github.com/docker/cli/opts"
-	"github.com/docker/cli/templates"
-	"github.com/moby/moby/api/types/events"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	flagsHelper "github.com/joshuakb2/docker_cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/opts"
+	"github.com/joshuakb2/docker_cli/templates"
+	"github.com/joshuakb2/moby/api/types/events"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
 )

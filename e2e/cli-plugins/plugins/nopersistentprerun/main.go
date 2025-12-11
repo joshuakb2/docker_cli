@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/docker/cli/cli-plugins/metadata"
-	"github.com/docker/cli/cli-plugins/plugin"
-	"github.com/docker/cli/cli/command"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli-plugins/plugin"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

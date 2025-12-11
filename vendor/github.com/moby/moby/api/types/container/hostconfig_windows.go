@@ -1,6 +1,6 @@
 package container
 
-import "github.com/moby/moby/api/types/network"
+import "github.com/joshuakb2/moby/api/types/network"
 
 // IsValid indicates if an isolation technology is valid
 func (i Isolation) IsValid() bool {

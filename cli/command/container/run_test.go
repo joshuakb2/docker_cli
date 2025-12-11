@@ -10,14 +10,14 @@ import (
 	"time"
 
 	"github.com/creack/pty"
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/streams"
-	"github.com/docker/cli/internal/test"
-	"github.com/moby/moby/api/types"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/client"
-	"github.com/moby/moby/client/pkg/progress"
-	"github.com/moby/moby/client/pkg/streamformatter"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/docker_cli/internal/test"
+	"github.com/joshuakb2/moby/api/types"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/client"
+	"github.com/joshuakb2/moby/client/pkg/progress"
+	"github.com/joshuakb2/moby/client/pkg/streamformatter"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
@@ -101,7 +101,7 @@ func TestRunAttach(t *testing.T) {
 			}
 		},
 		// use new (non-legacy) wait API
-		// see: https://github.com/docker/cli/commit/38591f20d07795aaef45d400df89ca12f29c603b
+		// see: https://github.com/joshuakb2/docker_cli/commit/38591f20d07795aaef45d400df89ca12f29c603b
 		Version: client.MaxAPIVersion,
 	}, func(fc *test.FakeCli) {
 		fc.SetOut(streams.NewOut(tty))
@@ -181,7 +181,7 @@ func TestRunAttachTermination(t *testing.T) {
 			}
 		},
 		// use new (non-legacy) wait API
-		// see: https://github.com/docker/cli/commit/38591f20d07795aaef45d400df89ca12f29c603b
+		// see: https://github.com/joshuakb2/docker_cli/commit/38591f20d07795aaef45d400df89ca12f29c603b
 		Version: client.MaxAPIVersion,
 	}, func(fc *test.FakeCli) {
 		fc.SetOut(streams.NewOut(tty))

@@ -1,10 +1,10 @@
 # Docker CLI
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/docker/cli)](https://pkg.go.dev/github.com/docker/cli)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/docker/cli/build.yml?branch=master&label=build&logo=github)](https://github.com/docker/cli/actions?query=workflow%3Abuild)
-[![Test Status](https://img.shields.io/github/actions/workflow/status/docker/cli/test.yml?branch=master&label=test&logo=github)](https://github.com/docker/cli/actions?query=workflow%3Atest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/docker/cli)](https://goreportcard.com/report/github.com/docker/cli)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/docker/cli/badge)](https://scorecard.dev/viewer/?uri=github.com/docker/cli)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/joshuakb2/docker_cli)](https://pkg.go.dev/github.com/joshuakb2/docker_cli)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/docker/cli/build.yml?branch=master&label=build&logo=github)](https://github.com/joshuakb2/docker_cli/actions?query=workflow%3Abuild)
+[![Test Status](https://img.shields.io/github/actions/workflow/status/docker/cli/test.yml?branch=master&label=test&logo=github)](https://github.com/joshuakb2/docker_cli/actions?query=workflow%3Atest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/joshuakb2/docker_cli)](https://goreportcard.com/report/github.com/joshuakb2/docker_cli)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/joshuakb2/docker_cli/badge)](https://scorecard.dev/viewer/?uri=github.com/joshuakb2/docker_cli)
 [![Codecov](https://img.shields.io/codecov/c/github/docker/cli?logo=codecov)](https://codecov.io/gh/docker/cli)
 
 ## About
@@ -68,7 +68,7 @@ make -f docker.Makefile shell
 ## Legal
 
 *Brought to you courtesy of our legal counsel. For more context,
-see the [NOTICE](https://github.com/docker/cli/blob/master/NOTICE) document in this repo.*
+see the [NOTICE](https://github.com/joshuakb2/docker_cli/blob/master/NOTICE) document in this repo.*
 
 Use and transfer of Docker may be subject to certain restrictions by the
 United States and other governments.

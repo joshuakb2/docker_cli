@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/mount"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/mount"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )
@@ -661,7 +661,7 @@ func TestUpdateIsolationValid(t *testing.T) {
 // and that values are not updated are not reset to their default value
 func TestUpdateLimitsReservations(t *testing.T) {
 	// test that updating works if the service did not previously
-	// have limits set (https://github.com/moby/moby/issues/38363)
+	// have limits set (https://github.com/joshuakb2/moby/issues/38363)
 	t.Run("update limits from scratch", func(t *testing.T) {
 		spec := swarm.ServiceSpec{
 			TaskTemplate: swarm.TaskSpec{
@@ -683,7 +683,7 @@ func TestUpdateLimitsReservations(t *testing.T) {
 	})
 
 	// test that updating works if the service did not previously
-	// have reservations set (https://github.com/moby/moby/issues/38363)
+	// have reservations set (https://github.com/joshuakb2/moby/issues/38363)
 	t.Run("update reservations from scratch", func(t *testing.T) {
 		spec := swarm.ServiceSpec{
 			TaskTemplate: swarm.TaskSpec{

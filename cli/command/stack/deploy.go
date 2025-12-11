@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/compose/convert"
-	composetypes "github.com/docker/cli/cli/compose/types"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/compose/convert"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

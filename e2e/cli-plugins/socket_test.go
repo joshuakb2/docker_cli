@@ -50,7 +50,7 @@ func TestPluginSocketBackwardsCompatible(t *testing.T) {
 		})
 
 		// ensure that we don't break plugins that attempt to read from the TTY
-		// (see: https://github.com/moby/moby/issues/47073)
+		// (see: https://github.com/joshuakb2/moby/issues/47073)
 		// (remove me if/when we decide to break compatibility here)
 		t.Run("the plugin can read from the TTY", func(t *testing.T) {
 			cmd := run("presocket", "tty")

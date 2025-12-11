@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/cli/cli/config/credentials"
-	"github.com/docker/cli/cli/version"
+	"github.com/joshuakb2/docker_cli/cli/config/credentials"
+	"github.com/joshuakb2/docker_cli/cli/version"
 )
 
 const (

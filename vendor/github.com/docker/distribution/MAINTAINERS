@@ -143,7 +143,7 @@ of the pull request and which areas of the project it affects.
 
 	text = """
 The [DCO or `Sign your work`](
-https://github.com/moby/moby/blob/master/CONTRIBUTING.md#sign-your-work)
+https://github.com/joshuakb2/moby/blob/master/CONTRIBUTING.md#sign-your-work)
 requirement is not intended as a roadblock or speed bump.
 
 Some distribution contributors are not as familiar with `git`, or have used a web

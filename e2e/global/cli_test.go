@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/cli/e2e/internal/fixtures"
-	"github.com/docker/cli/e2e/testutils"
-	"github.com/docker/cli/internal/test"
-	"github.com/docker/cli/internal/test/environment"
+	"github.com/joshuakb2/docker_cli/e2e/internal/fixtures"
+	"github.com/joshuakb2/docker_cli/e2e/testutils"
+	"github.com/joshuakb2/docker_cli/internal/test"
+	"github.com/joshuakb2/docker_cli/internal/test/environment"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 	"gotest.tools/v3/poll"
@@ -134,7 +134,7 @@ func TestPromptExitCode(t *testing.T) {
 			name: "plugin install",
 			run: func(t *testing.T) icmd.Cmd {
 				t.Helper()
-				t.Skip("flaky test: see https://github.com/docker/cli/issues/6248")
+				t.Skip("flaky test: see https://github.com/joshuakb2/docker_cli/issues/6248")
 
 				const plugin = "registry:5000/plugin-install-test:latest"
 
@@ -151,7 +151,7 @@ func TestPromptExitCode(t *testing.T) {
 			name: "plugin upgrade",
 			run: func(t *testing.T) icmd.Cmd {
 				t.Helper()
-				t.Skip("flaky test: see https://github.com/docker/cli/issues/6248")
+				t.Skip("flaky test: see https://github.com/joshuakb2/docker_cli/issues/6248")
 
 				const plugin = "registry:5000/plugin-upgrade-test"
 

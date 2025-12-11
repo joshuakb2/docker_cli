@@ -1,6 +1,6 @@
 package builders
 
-import "github.com/moby/moby/api/types/volume"
+import "github.com/joshuakb2/moby/api/types/volume"
 
 // Volume creates a volume with default values.
 // Any number of volume function builder can be passed to augment it.

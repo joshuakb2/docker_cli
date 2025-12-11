@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/docker/cli/cli/connhelper/internal/syntax"
+	"github.com/joshuakb2/docker_cli/cli/connhelper/internal/syntax"
 )
 
 // ParseURL creates a [Spec] from the given ssh URL. It returns an error if

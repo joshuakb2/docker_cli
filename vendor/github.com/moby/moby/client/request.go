@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/moby/moby/api/types/common"
+	"github.com/joshuakb2/moby/api/types/common"
 )
 
 // head sends an http request to the docker API using the method HEAD.

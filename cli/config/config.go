@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/config/credentials"
-	"github.com/docker/cli/cli/config/types"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/config/credentials"
+	"github.com/joshuakb2/docker_cli/cli/config/types"
 )
 
 const (
@@ -166,7 +166,7 @@ func load(configDir string) (*configfile.ConfigFile, error) {
 func LoadDefaultConfigFile(stderr io.Writer) *configfile.ConfigFile {
 	configFile, err := load(Dir())
 	if err != nil {
-		// FIXME(thaJeztah): we should not proceed here to prevent overwriting existing (but malformed) config files; see https://github.com/docker/cli/issues/5075
+		// FIXME(thaJeztah): we should not proceed here to prevent overwriting existing (but malformed) config files; see https://github.com/joshuakb2/docker_cli/issues/5075
 		_, _ = fmt.Fprintln(stderr, "WARNING: Error", err)
 	}
 	if !configFile.ContainsAuth() {

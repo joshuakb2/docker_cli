@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/moby/moby/api/types/mount"
-	"github.com/moby/moby/api/types/storage"
+	"github.com/joshuakb2/moby/api/types/mount"
+	"github.com/joshuakb2/moby/api/types/storage"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 	"github.com/moby/sys/signal"
 )
 

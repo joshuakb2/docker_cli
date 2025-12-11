@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/cli/cli/streams"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/moby/client"
 	"github.com/moby/term"
 )
 
@@ -211,7 +211,7 @@ func withCustomHeadersFromEnv() (client.Opt, error) {
 	}
 
 	// TODO(thaJeztah): add a client.WithExtraHTTPHeaders() function to allow these headers to be _added_ to existing ones, instead of _replacing_
-	//  see https://github.com/docker/cli/pull/5098#issuecomment-2147403871  (when updating, also update the WARNING in the function and env-var GoDoc)
+	//  see https://github.com/joshuakb2/docker_cli/pull/5098#issuecomment-2147403871  (when updating, also update the WARNING in the function and env-var GoDoc)
 	return client.WithHTTPHeaders(env), nil
 }
 

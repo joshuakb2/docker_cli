@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/netip"
 
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 // SwarmInitOptions contains options for initializing a new swarm.

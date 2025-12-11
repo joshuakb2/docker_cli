@@ -8,5 +8,5 @@
 // functionality that cannot be used in the CLI.
 //
 // [github.com/docker/docker/registry]: https://pkg.go.dev/github.com/docker/docker@v28.3.2+incompatible/registry
-// [moby@49306c6]: https://github.com/moby/moby/tree/49306c607b72c5bf0a8e426f5a9760fa5ef96ea0/registry
+// [moby@49306c6]: https://github.com/joshuakb2/moby/tree/49306c607b72c5bf0a8e426f5a9760fa5ef96ea0/registry
 package registry

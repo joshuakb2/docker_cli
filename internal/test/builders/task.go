@@ -3,7 +3,7 @@ package builders
 import (
 	"time"
 
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/api/types/swarm"
 )
 
 var defaultTime = time.Date(2009, time.November, 10, 23, 0, 0, 0, time.UTC)

@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/internal/registry"
+	"github.com/joshuakb2/docker_cli/internal/registry"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/transport"
-	registrytypes "github.com/moby/moby/api/types/registry"
+	registrytypes "github.com/joshuakb2/moby/api/types/registry"
 )
 
 type repositoryEndpoint struct {

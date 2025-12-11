@@ -3,7 +3,7 @@ package image
 import (
 	"testing"
 
-	"github.com/docker/cli/e2e/internal/fixtures"
+	"github.com/joshuakb2/docker_cli/e2e/internal/fixtures"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/icmd"

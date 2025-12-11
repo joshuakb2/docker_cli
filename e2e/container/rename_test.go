@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/e2e/internal/fixtures"
+	"github.com/joshuakb2/docker_cli/e2e/internal/fixtures"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/cli/e2e/internal/fixtures"
-	"github.com/docker/cli/internal/test/environment"
-	"github.com/docker/cli/internal/test/output"
+	"github.com/joshuakb2/docker_cli/e2e/internal/fixtures"
+	"github.com/joshuakb2/docker_cli/internal/test/environment"
+	"github.com/joshuakb2/docker_cli/internal/test/output"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"
@@ -47,7 +47,7 @@ func TestBuildFromContextDirectoryWithTag(t *testing.T) {
 		3: output.Suffix("Step 2/4 : COPY run /usr/bin/run"),
 		5: output.Suffix("Step 3/4 : RUN run"),
 		7: output.Suffix("running"),
-		// TODO(krissetto): ugly, remove when no longer testing against moby 24. see https://github.com/moby/moby/pull/46270
+		// TODO(krissetto): ugly, remove when no longer testing against moby 24. see https://github.com/joshuakb2/moby/pull/46270
 		8: func(s string) error {
 			err := output.Contains("Removed intermediate container")(s) // moby >= v25
 			if err == nil {

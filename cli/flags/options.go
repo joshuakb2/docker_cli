@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli/config"
 	"github.com/docker/go-connections/tlsconfig"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 )
@@ -63,7 +63,7 @@ var (
 // slice. It produces an error when trying to set multiple values, matching
 // the check in [getServerHost].
 //
-// [getServerHost]: https://github.com/docker/cli/blob/7eab668982645def1cd46fe1b60894cba6fd17a4/cli/command/cli.go#L542-L551
+// [getServerHost]: https://github.com/joshuakb2/docker_cli/blob/7eab668982645def1cd46fe1b60894cba6fd17a4/cli/command/cli.go#L542-L551
 type hostVar struct {
 	dst *[]string
 	set bool

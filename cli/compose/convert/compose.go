@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	composetypes "github.com/docker/cli/cli/compose/types"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

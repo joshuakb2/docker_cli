@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	manifeststore "github.com/docker/cli/cli/manifest/store"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	manifeststore "github.com/joshuakb2/docker_cli/cli/manifest/store"
 	"github.com/spf13/cobra"
 )
 

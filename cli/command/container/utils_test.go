@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

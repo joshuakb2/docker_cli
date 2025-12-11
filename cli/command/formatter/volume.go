@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/volume"
+	"github.com/joshuakb2/moby/api/types/volume"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/plugin"
+	"github.com/joshuakb2/moby/api/types/plugin"
 )
 
 // PluginListOptions holds parameters to list plugins.

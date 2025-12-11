@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/moby/moby/api/types/system"
+	"github.com/joshuakb2/moby/api/types/system"
 )
 
 type InfoOptions struct {

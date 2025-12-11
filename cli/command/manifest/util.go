@@ -5,8 +5,8 @@ import (
 
 	"github.com/containerd/errdefs"
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/manifest/types"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/manifest/types"
 )
 
 type osArch struct {

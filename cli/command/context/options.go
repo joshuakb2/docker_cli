@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/docker/cli/cli/context"
-	"github.com/docker/cli/cli/context/docker"
-	"github.com/docker/cli/cli/context/store"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/context"
+	"github.com/joshuakb2/docker_cli/cli/context/docker"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

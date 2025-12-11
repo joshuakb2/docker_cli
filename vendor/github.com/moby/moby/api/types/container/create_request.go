@@ -1,6 +1,6 @@
 package container
 
-import "github.com/moby/moby/api/types/network"
+import "github.com/joshuakb2/moby/api/types/network"
 
 // CreateRequest is the request message sent to the server for container
 // create calls. It is a config wrapper that holds the container [Config]

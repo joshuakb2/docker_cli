@@ -11,7 +11,7 @@ package manager
 // 2. Additional plugin directories as configured through [ConfigFile.CLIPluginsExtraDirs].
 // 3. Platform-specific defaultSystemPluginDirs (as defined below).
 //
-// [ConfigFile.CLIPluginsExtraDirs]: https://pkg.go.dev/github.com/docker/cli@v26.1.4+incompatible/cli/config/configfile#ConfigFile.CLIPluginsExtraDirs
+// [ConfigFile.CLIPluginsExtraDirs]: https://pkg.go.dev/github.com/joshuakb2/docker_cli@v26.1.4+incompatible/cli/config/configfile#ConfigFile.CLIPluginsExtraDirs
 var defaultSystemPluginDirs = []string{
 	"/usr/local/lib/docker/cli-plugins",
 	"/usr/local/libexec/docker/cli-plugins",

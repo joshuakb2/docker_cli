@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/compose/loader"
-	"github.com/docker/cli/cli/compose/schema"
-	composetypes "github.com/docker/cli/cli/compose/types"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/compose/loader"
+	"github.com/joshuakb2/docker_cli/cli/compose/schema"
+	composetypes "github.com/joshuakb2/docker_cli/cli/compose/types"
 )
 
 // loadComposeFile parse the composefile specified in the cli and returns its configOptions and version.
@@ -126,7 +126,7 @@ func buildEnvironment(env []string) (map[string]string, error) {
 			//
 			// https://ss64.com/nt/syntax-variables.html
 			// https://devblogs.microsoft.com/oldnewthing/20100506-00/?p=14133
-			// https://github.com/docker/cli/issues/4078
+			// https://github.com/joshuakb2/docker_cli/issues/4078
 			if s[0] == '=' {
 				continue
 			}

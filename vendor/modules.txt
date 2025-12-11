@@ -48,10 +48,10 @@ github.com/creack/pty
 # github.com/distribution/reference v0.6.0
 ## explicit; go 1.20
 github.com/distribution/reference
-# github.com/docker/cli-docs-tool v0.11.0
+# github.com/joshuakb2/docker_cli-docs-tool v0.11.0
 ## explicit; go 1.23.0
-github.com/docker/cli-docs-tool
-github.com/docker/cli-docs-tool/annotation
+github.com/joshuakb2/docker_cli-docs-tool
+github.com/joshuakb2/docker_cli-docs-tool/annotation
 # github.com/docker/distribution v2.8.3+incompatible
 ## explicit
 github.com/docker/distribution
@@ -167,39 +167,39 @@ github.com/moby/docker-image-spec/specs-go/v1
 github.com/moby/go-archive
 github.com/moby/go-archive/compression
 github.com/moby/go-archive/tarheader
-# github.com/moby/moby/api v1.52.0
+# github.com/joshuakb2/moby/api v1.52.0
 ## explicit; go 1.24.0
-github.com/moby/moby/api/pkg/authconfig
-github.com/moby/moby/api/pkg/stdcopy
-github.com/moby/moby/api/types
-github.com/moby/moby/api/types/auxprogress
-github.com/moby/moby/api/types/blkiodev
-github.com/moby/moby/api/types/build
-github.com/moby/moby/api/types/checkpoint
-github.com/moby/moby/api/types/common
-github.com/moby/moby/api/types/container
-github.com/moby/moby/api/types/events
-github.com/moby/moby/api/types/image
-github.com/moby/moby/api/types/jsonstream
-github.com/moby/moby/api/types/mount
-github.com/moby/moby/api/types/network
-github.com/moby/moby/api/types/plugin
-github.com/moby/moby/api/types/registry
-github.com/moby/moby/api/types/storage
-github.com/moby/moby/api/types/swarm
-github.com/moby/moby/api/types/system
-github.com/moby/moby/api/types/volume
-# github.com/moby/moby/client v0.2.1
+github.com/joshuakb2/moby/api/pkg/authconfig
+github.com/joshuakb2/moby/api/pkg/stdcopy
+github.com/joshuakb2/moby/api/types
+github.com/joshuakb2/moby/api/types/auxprogress
+github.com/joshuakb2/moby/api/types/blkiodev
+github.com/joshuakb2/moby/api/types/build
+github.com/joshuakb2/moby/api/types/checkpoint
+github.com/joshuakb2/moby/api/types/common
+github.com/joshuakb2/moby/api/types/container
+github.com/joshuakb2/moby/api/types/events
+github.com/joshuakb2/moby/api/types/image
+github.com/joshuakb2/moby/api/types/jsonstream
+github.com/joshuakb2/moby/api/types/mount
+github.com/joshuakb2/moby/api/types/network
+github.com/joshuakb2/moby/api/types/plugin
+github.com/joshuakb2/moby/api/types/registry
+github.com/joshuakb2/moby/api/types/storage
+github.com/joshuakb2/moby/api/types/swarm
+github.com/joshuakb2/moby/api/types/system
+github.com/joshuakb2/moby/api/types/volume
+# github.com/joshuakb2/moby/client v0.2.1
 ## explicit; go 1.24.0
-github.com/moby/moby/client
-github.com/moby/moby/client/internal
-github.com/moby/moby/client/internal/timestamp
-github.com/moby/moby/client/pkg/jsonmessage
-github.com/moby/moby/client/pkg/progress
-github.com/moby/moby/client/pkg/security
-github.com/moby/moby/client/pkg/streamformatter
-github.com/moby/moby/client/pkg/stringid
-github.com/moby/moby/client/pkg/versions
+github.com/joshuakb2/moby/client
+github.com/joshuakb2/moby/client/internal
+github.com/joshuakb2/moby/client/internal/timestamp
+github.com/joshuakb2/moby/client/pkg/jsonmessage
+github.com/joshuakb2/moby/client/pkg/progress
+github.com/joshuakb2/moby/client/pkg/security
+github.com/joshuakb2/moby/client/pkg/streamformatter
+github.com/joshuakb2/moby/client/pkg/stringid
+github.com/joshuakb2/moby/client/pkg/versions
 # github.com/moby/patternmatcher v0.6.0
 ## explicit; go 1.19
 github.com/moby/patternmatcher

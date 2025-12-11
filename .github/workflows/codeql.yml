@@ -53,7 +53,7 @@ jobs:
       # and is trying to be smart by searching for modules in every directory,
       # including vendor directories. If no module is found, it's creating one
       # which is ... not what we want, so let's give it a "go.mod".
-      # see: https://github.com/docker/cli/pull/4944#issuecomment-2002034698
+      # see: https://github.com/joshuakb2/docker_cli/pull/4944#issuecomment-2002034698
       -
         name: Create go.mod
         run: |

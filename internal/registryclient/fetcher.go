@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/distribution/reference"
-	"github.com/docker/cli/cli/manifest/types"
-	"github.com/docker/cli/internal/registry"
+	"github.com/joshuakb2/docker_cli/cli/manifest/types"
+	"github.com/joshuakb2/docker_cli/internal/registry"
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/manifest/manifestlist"
 	"github.com/docker/distribution/manifest/ocischema"

@@ -7,7 +7,7 @@ keywords: "docker, documentation, about, technology, deprecate"
 ---
 
 <!-- This file is maintained within the docker/cli GitHub
-     repository at https://github.com/docker/cli/. Make all
+     repository at https://github.com/joshuakb2/docker_cli/. Make all
      pull requests against that repo. If you see this file in
      another repository, consider it read-only there, as it will
      periodically be overwritten by the definitive file. Pull
@@ -336,7 +336,7 @@ They continue to be included when using clients that use an older API version:
 
 **Target for removal in release: v28.0**
 
-[Graphdriver plugins](https://github.com/docker/cli/blob/v26.1.4/docs/extend/plugins_graphdriver.md)
+[Graphdriver plugins](https://github.com/joshuakb2/docker_cli/blob/v26.1.4/docs/extend/plugins_graphdriver.md)
 were an experimental feature that allowed extending the Docker Engine with custom
 storage drivers for storing images and containers. This feature was not
 maintained since its inception.
@@ -503,8 +503,8 @@ In the v29.0 release, this warning is removed, and returned as an error.
 Users should use the equivalent `bind-recursive=disabled` option instead.
 
 [`bind-recursive`]: https://docs.docker.com/engine/storage/bind-mounts/#recursive-mounts
-[cli-4316]: https://github.com/docker/cli/pull/4316
-[cli-4671]: https://github.com/docker/cli/pull/4671
+[cli-4316]: https://github.com/joshuakb2/docker_cli/pull/4316
+[cli-4671]: https://github.com/joshuakb2/docker_cli/pull/4671
 
 ### IsAutomated field, and `is-automated` filter on `docker search`
 
@@ -867,7 +867,7 @@ files.
 **Removed in release: v28.0**
 
 The `--log-opt fluentd-async-connect` option for the fluentd logging driver is
-[deprecated in favor of `--log-opt fluentd-async`](https://github.com/moby/moby/pull/39086).
+[deprecated in favor of `--log-opt fluentd-async`](https://github.com/joshuakb2/moby/pull/39086).
 A deprecation message is logged in the daemon logs if the old option is used:
 
 ```console

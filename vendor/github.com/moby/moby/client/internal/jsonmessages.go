@@ -8,7 +8,7 @@ import (
 	"iter"
 	"sync"
 
-	"github.com/moby/moby/api/types/jsonstream"
+	"github.com/joshuakb2/moby/api/types/jsonstream"
 )
 
 func NewJSONMessageStream(rc io.ReadCloser) stream {

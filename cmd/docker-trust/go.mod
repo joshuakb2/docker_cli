@@ -1,17 +1,17 @@
-module github.com/docker/cli/cmd/docker-trust
+module github.com/joshuakb2/docker_cli/cmd/docker-trust
 
 go 1.24.0
 
 require (
 	github.com/containerd/errdefs v1.0.0
 	github.com/distribution/reference v0.6.0
-	github.com/docker/cli v29.0.4+incompatible
-	github.com/docker/cli-docs-tool v0.10.0
+	github.com/joshuakb2/docker_cli v29.0.4+incompatible
+	github.com/joshuakb2/docker_cli-docs-tool v0.10.0
 	github.com/docker/distribution v2.8.3+incompatible
 	github.com/docker/go-connections v0.6.0
 	github.com/fvbommel/sortorder v1.1.0
-	github.com/moby/moby/api v1.52.0
-	github.com/moby/moby/client v0.1.0
+	github.com/joshuakb2/moby/api v1.52.0
+	github.com/joshuakb2/moby/client v0.1.0
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.10.1

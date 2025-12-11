@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/moby/moby/api/types/image"
+	"github.com/joshuakb2/moby/api/types/image"
 )
 
 // ImagePruneOptions holds parameters to prune images.

@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/credentials"
-	"github.com/docker/cli/internal/commands"
-	"github.com/docker/cli/internal/oauth/manager"
-	"github.com/docker/cli/internal/registry"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config/credentials"
+	"github.com/joshuakb2/docker_cli/internal/commands"
+	"github.com/joshuakb2/docker_cli/internal/oauth/manager"
+	"github.com/joshuakb2/docker_cli/internal/registry"
 	"github.com/spf13/cobra"
 )
 

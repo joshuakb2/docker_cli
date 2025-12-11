@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/command/inspect"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/docker_cli/cli/command/inspect"
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/swarm"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/swarm"
+	"github.com/joshuakb2/moby/client"
 )
 
 const (

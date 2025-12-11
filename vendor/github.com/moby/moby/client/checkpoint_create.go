@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/moby/moby/api/types/checkpoint"
+	"github.com/joshuakb2/moby/api/types/checkpoint"
 )
 
 // CheckpointCreateOptions holds parameters to create a checkpoint from a container.

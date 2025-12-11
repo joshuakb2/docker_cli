@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/cli/cli/config/credentials"
-	"github.com/docker/cli/cli/config/types"
+	"github.com/joshuakb2/docker_cli/cli/config/credentials"
+	"github.com/joshuakb2/docker_cli/cli/config/types"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

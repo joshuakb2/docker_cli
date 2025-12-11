@@ -19,7 +19,7 @@ const longPathPrefix = `\\?\`
 // addPrefix adds the Windows long path prefix to the path provided if
 // it does not already have it.
 //
-// See https://github.com/moby/moby/pull/15898
+// See https://github.com/joshuakb2/moby/pull/15898
 //
 // This is a copy of [longpath.AddPrefix].
 //

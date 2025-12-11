@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/version"
+	"github.com/joshuakb2/docker_cli/cli/version"
 	"github.com/spf13/cobra"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
@@ -176,7 +176,7 @@ func getFullCommandName(cmd *cobra.Command) string {
 // using the given metric.MeterProvider
 func getDefaultMeter(mp metric.MeterProvider) metric.Meter {
 	return mp.Meter(
-		"github.com/docker/cli",
+		"github.com/joshuakb2/docker_cli",
 		metric.WithInstrumentationVersion(version.Version),
 	)
 }

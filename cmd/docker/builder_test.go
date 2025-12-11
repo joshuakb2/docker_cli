@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/context/store"
-	"github.com/docker/cli/cli/flags"
-	"github.com/docker/cli/internal/test/output"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/context/store"
+	"github.com/joshuakb2/docker_cli/cli/flags"
+	"github.com/joshuakb2/docker_cli/internal/test/output"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
 )

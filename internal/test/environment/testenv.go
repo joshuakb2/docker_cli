@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/icmd"
 	"gotest.tools/v3/poll"
 	"gotest.tools/v3/skip"

@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/configfile"
-	"github.com/docker/cli/cli/streams"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/config/configfile"
+	"github.com/joshuakb2/docker_cli/cli/streams"
+	"github.com/joshuakb2/moby/client"
 	notaryclient "github.com/theupdateframework/notary/client"
 )
 

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/image"
+	"github.com/joshuakb2/moby/api/types/image"
 )
 
 // ImageRemove removes an image from the docker host.

@@ -3,7 +3,7 @@ package idresolver
 import (
 	"context"
 
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 )
 
 type fakeClient struct {

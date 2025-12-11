@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/moby/moby/api/types/container"
-	networktypes "github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/container"
+	networktypes "github.com/joshuakb2/moby/api/types/network"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
@@ -58,7 +58,7 @@ func parseRun(args []string) (*container.Config, *container.HostConfig, *network
 	if err := flags.Parse(args); err != nil {
 		return nil, nil, nil, err
 	}
-	// TODO(dnephin): fix tests to accept ContainerConfig; see https://github.com/moby/moby/pull/31621
+	// TODO(dnephin): fix tests to accept ContainerConfig; see https://github.com/joshuakb2/moby/pull/31621
 	containerCfg, err := parse(flags, copts, runtime.GOOS)
 	if err != nil {
 		return nil, nil, nil, err

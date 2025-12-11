@@ -1,4 +1,4 @@
-module github.com/docker/cli
+module github.com/joshuakb2/docker_cli
 
 // 'vendor.mod' enables use of 'go mod vendor' to managed 'vendor/' directory.
 // There is no 'go.mod' file, as that would imply opting in for all the rules
@@ -14,7 +14,7 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.7
 	github.com/creack/pty v1.1.24
 	github.com/distribution/reference v0.6.0
-	github.com/docker/cli-docs-tool v0.11.0
+	github.com/joshuakb2/docker_cli-docs-tool v0.11.0
 	github.com/docker/distribution v2.8.3+incompatible
 	github.com/docker/docker-credential-helpers v0.9.4
 	github.com/docker/go-connections v0.6.0
@@ -28,8 +28,8 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/mattn/go-runewidth v0.0.19
 	github.com/moby/go-archive v0.1.0
-	github.com/moby/moby/api v1.52.0
-	github.com/moby/moby/client v0.2.1
+	github.com/joshuakb2/moby/api v1.52.0
+	github.com/joshuakb2/moby/client v0.2.1
 	github.com/moby/patternmatcher v0.6.0
 	github.com/moby/swarmkit/v2 v2.1.1
 	github.com/moby/sys/atomicwriter v0.1.0

@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/docker/cli/internal/test"
+	"github.com/joshuakb2/docker_cli/internal/test"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/api/types/network"
+	"github.com/joshuakb2/moby/client"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

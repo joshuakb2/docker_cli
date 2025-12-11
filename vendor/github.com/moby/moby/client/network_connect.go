@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // NetworkConnectOptions represents the data to be used to connect a container to the

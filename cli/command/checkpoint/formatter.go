@@ -1,8 +1,8 @@
 package checkpoint
 
 import (
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/moby/moby/api/types/checkpoint"
+	"github.com/joshuakb2/docker_cli/cli/command/formatter"
+	"github.com/joshuakb2/moby/api/types/checkpoint"
 )
 
 const (

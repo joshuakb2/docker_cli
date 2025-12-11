@@ -3,7 +3,7 @@ package manager
 import (
 	"os/exec"
 
-	"github.com/docker/cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
 )
 
 type candidate struct {

@@ -9,9 +9,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/cli/internal/lazyregexp"
+	"github.com/joshuakb2/docker_cli/internal/lazyregexp"
 	"github.com/docker/go-units"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/moby/client"
 )
 
 var (

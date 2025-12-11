@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/moby/moby/api/types/build"
-	"github.com/moby/moby/client/pkg/versions"
+	"github.com/joshuakb2/moby/api/types/build"
+	"github.com/joshuakb2/moby/client/pkg/versions"
 )
 
 // BuildCachePruneOptions hold parameters to prune the build cache.
@@ -35,7 +35,7 @@ func (cli *Client) BuildCachePrune(ctx context.Context, opts BuildCachePruneOpti
 
 	if opts.ReservedSpace != 0 {
 		// Prior to API v1.48, 'keep-storage' was used to set the reserved space for the build cache.
-		// TODO(austinvazquez): remove once API v1.47 is no longer supported. See https://github.com/moby/moby/issues/50902
+		// TODO(austinvazquez): remove once API v1.47 is no longer supported. See https://github.com/joshuakb2/moby/issues/50902
 		if versions.LessThanOrEqualTo(cli.version, "1.47") {
 			query.Set("keep-storage", strconv.Itoa(int(opts.ReservedSpace)))
 		} else {

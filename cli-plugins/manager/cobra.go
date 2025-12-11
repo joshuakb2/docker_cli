@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/docker/cli/cli-plugins/metadata"
-	"github.com/docker/cli/cli/config"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli/config"
 	"github.com/spf13/cobra"
 )
 

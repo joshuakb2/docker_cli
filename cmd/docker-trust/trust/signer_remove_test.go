@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/cli/cmd/docker-trust/internal/test"
-	notaryfake "github.com/docker/cli/cmd/docker-trust/internal/test/notary"
+	"github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/test"
+	notaryfake "github.com/joshuakb2/docker_cli/cmd/docker-trust/internal/test/notary"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/tuf/data"
 	"gotest.tools/v3/assert"

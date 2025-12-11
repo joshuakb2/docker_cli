@@ -81,12 +81,12 @@ Mergo is used by [thousands](https://deps.dev/go/dario.cat%2Fmergo/v1.0.0/depend
 
 * [containerd/containerd](https://github.com/containerd/containerd)
 * [datadog/datadog-agent](https://github.com/datadog/datadog-agent)
-* [docker/cli/](https://github.com/docker/cli/)
+* [docker/cli/](https://github.com/joshuakb2/docker_cli/)
 * [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser)
 * [go-micro/go-micro](https://github.com/go-micro/go-micro)
 * [grafana/loki](https://github.com/grafana/loki)
 * [masterminds/sprig](github.com/Masterminds/sprig)
-* [moby/moby](https://github.com/moby/moby)
+* [moby/moby](https://github.com/joshuakb2/moby)
 * [slackhq/nebula](https://github.com/slackhq/nebula)
 * [volcano-sh/volcano](https://github.com/volcano-sh/volcano)
 

@@ -18,7 +18,7 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/registry"
 )
 
 // ServiceOptions holds command line options.
@@ -71,7 +71,7 @@ var (
 // runningWithRootlessKit is a fork of [rootless.RunningWithRootlessKit],
 // but inlining it to prevent adding that as a dependency for docker/cli.
 //
-// [rootless.RunningWithRootlessKit]: https://github.com/moby/moby/blob/b4bdf12daec84caaf809a639f923f7370d4926ad/pkg/rootless/rootless.go#L5-L8
+// [rootless.RunningWithRootlessKit]: https://github.com/joshuakb2/moby/blob/b4bdf12daec84caaf809a639f923f7370d4926ad/pkg/rootless/rootless.go#L5-L8
 func runningWithRootlessKit() bool {
 	return runtime.GOOS == "linux" && os.Getenv("ROOTLESSKIT_STATE_DIR") != ""
 }

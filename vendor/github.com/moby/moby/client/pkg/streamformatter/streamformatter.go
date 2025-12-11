@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/jsonstream"
-	"github.com/moby/moby/client/pkg/progress"
+	"github.com/joshuakb2/moby/api/types/jsonstream"
+	"github.com/joshuakb2/moby/client/pkg/progress"
 )
 
 const streamNewline = "\r\n"

@@ -10,7 +10,7 @@ import (
 
 	"github.com/containerd/errdefs"
 	"github.com/containerd/log"
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/registry"
 )
 
 // Service is a registry service. It tracks configuration data such as a list

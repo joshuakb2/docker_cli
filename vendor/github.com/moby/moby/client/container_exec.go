@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/containerd/errdefs"
-	"github.com/moby/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/container"
 )
 
 // ExecCreateOptions is a small subset of the Config struct that holds the configuration
@@ -132,7 +132,7 @@ type ExecAttachResult struct {
 // You can use [stdcopy.StdCopy] to demultiplex this stream. Refer to
 // [Client.ContainerAttach] for details about the multiplexed stream.
 //
-// [stdcopy.StdCopy]: https://pkg.go.dev/github.com/moby/moby/api/pkg/stdcopy#StdCopy
+// [stdcopy.StdCopy]: https://pkg.go.dev/github.com/joshuakb2/moby/api/pkg/stdcopy#StdCopy
 func (cli *Client) ExecAttach(ctx context.Context, execID string, options ExecAttachOptions) (ExecAttachResult, error) {
 	consoleSize, err := getConsoleSize(options.TTY, options.ConsoleSize)
 	if err != nil {

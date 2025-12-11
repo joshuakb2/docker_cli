@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/cli/cli-plugins/metadata"
-	"github.com/docker/cli/cli-plugins/plugin"
-	"github.com/docker/cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli-plugins/metadata"
+	"github.com/joshuakb2/docker_cli/cli-plugins/plugin"
+	"github.com/joshuakb2/docker_cli/cli/command"
 	"github.com/spf13/cobra"
 )
 

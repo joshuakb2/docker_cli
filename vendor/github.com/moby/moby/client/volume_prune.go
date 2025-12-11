@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	"github.com/containerd/errdefs"
-	"github.com/moby/moby/api/types/volume"
+	"github.com/joshuakb2/moby/api/types/volume"
 )
 
 // VolumePruneOptions holds parameters to prune volumes.

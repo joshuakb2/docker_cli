@@ -3,7 +3,7 @@ package loader
 import (
 	"os"
 
-	"github.com/docker/cli/pkg/kvfile"
+	"github.com/joshuakb2/docker_cli/pkg/kvfile"
 )
 
 // parseEnvFile reads a file with environment variables enumerated by lines
@@ -20,7 +20,7 @@ import (
 // nothing more.
 //
 // [IEEE Std 1003.1-2001]: http://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap08.html
-// [moby-16585]: https://github.com/moby/moby/issues/16585
+// [moby-16585]: https://github.com/joshuakb2/moby/issues/16585
 func parseEnvFile(filename string) ([]string, error) {
 	return kvfile.Parse(filename, os.LookupEnv)
 }

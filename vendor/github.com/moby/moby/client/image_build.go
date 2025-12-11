@@ -10,8 +10,8 @@ import (
 	"strconv"
 
 	cerrdefs "github.com/containerd/errdefs"
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // ImageBuild sends a request to the daemon to build images.

@@ -1,7 +1,7 @@
 package builders
 
 import (
-	"github.com/moby/moby/api/types/network"
+	"github.com/joshuakb2/moby/api/types/network"
 )
 
 // NetworkResource creates a network resource with default values.

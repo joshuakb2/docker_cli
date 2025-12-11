@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/docker/go-units"
-	"github.com/moby/moby/api/types/build"
+	"github.com/joshuakb2/moby/api/types/build"
 )
 
 const (

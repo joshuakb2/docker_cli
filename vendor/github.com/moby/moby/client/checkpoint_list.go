@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/moby/moby/api/types/checkpoint"
+	"github.com/joshuakb2/moby/api/types/checkpoint"
 )
 
 // CheckpointListOptions holds parameters to list checkpoints for a container.

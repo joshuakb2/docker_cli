@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/docker/cli/cli/compose/convert"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli/compose/convert"
+	"github.com/joshuakb2/moby/client"
 )
 
 // getStacks lists the swarm stacks with the number of services they contain.

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/moby/moby/client/pkg/stringid"
+	"github.com/joshuakb2/moby/client/pkg/stringid"
 	"golang.org/x/text/width"
 )
 

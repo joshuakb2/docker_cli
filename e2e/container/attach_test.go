@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/creack/pty"
-	"github.com/docker/cli/e2e/internal/fixtures"
+	"github.com/joshuakb2/docker_cli/e2e/internal/fixtures"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 	"gotest.tools/v3/skip"
@@ -31,7 +31,7 @@ func withStdinNewline(cmd *icmd.Cmd) {
 	cmd.Stdin = strings.NewReader("\n")
 }
 
-// Regression test for https://github.com/docker/cli/issues/5294
+// Regression test for https://github.com/joshuakb2/docker_cli/issues/5294
 func TestAttachInterrupt(t *testing.T) {
 	// this is a new test, it already did not work (inside dind) when over ssh
 	// todo(laurazard): make this test work w/ dind over ssh

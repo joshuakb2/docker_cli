@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/moby/moby/api/types/registry"
+	"github.com/joshuakb2/moby/api/types/registry"
 )
 
 // PluginPushOptions holds parameters to push a plugin.

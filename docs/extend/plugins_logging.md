@@ -93,7 +93,7 @@ write to its stdio streams.
 
 Log stream messages are encoded as protocol buffers. The protobuf definitions are
 in the
-[moby repository](https://github.com/moby/moby/blob/master/api/types/plugins/logdriver/entry.proto).
+[moby repository](https://github.com/joshuakb2/moby/blob/master/api/types/plugins/logdriver/entry.proto).
 
 Since protocol buffers are not self-delimited you must decode them from the stream
 using the following stream format:

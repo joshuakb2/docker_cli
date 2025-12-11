@@ -20,7 +20,7 @@ For example, to list running containers (the equivalent of "docker ps"):
 		"fmt"
 		"log"
 
-		"github.com/moby/moby/client"
+		"github.com/joshuakb2/moby/client"
 	)
 
 	func main() {
@@ -66,7 +66,7 @@ import (
 
 	cerrdefs "github.com/containerd/errdefs"
 	"github.com/docker/go-connections/sockets"
-	"github.com/moby/moby/client/pkg/versions"
+	"github.com/joshuakb2/moby/client/pkg/versions"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )
 
@@ -92,7 +92,7 @@ import (
 //   - https://github.com/docker/engine-api/issues/189
 //   - https://github.com/golang/go/issues/13624
 //   - https://github.com/golang/go/issues/61076
-//   - https://github.com/moby/moby/issues/45935
+//   - https://github.com/joshuakb2/moby/issues/45935
 //
 // [RFC 2606, Section 2]: https://www.rfc-editor.org/rfc/rfc2606.html#section-2
 // [RFC 6761, Section 6.3]: https://www.rfc-editor.org/rfc/rfc6761#section-6.3
@@ -258,7 +258,7 @@ func defaultHTTPClient(hostURL *url.URL) (*http.Client, error) {
 	// not being released.
 	// TODO: see if we can also address this from the server side,
 	// or in go-connections.
-	// see: https://github.com/moby/moby/issues/45539
+	// see: https://github.com/joshuakb2/moby/issues/45539
 	transport.MaxIdleConns = 6
 	transport.IdleConnTimeout = 30 * time.Second
 	err := sockets.ConfigureTransport(transport, hostURL.Scheme, hostURL.Host)
@@ -401,7 +401,7 @@ func (cli *Client) dialerFromTransport() func(context.Context, string, string) (
 // that can be used for proxying the daemon connection. It is used by
 // ["docker dial-stdio"].
 //
-// ["docker dial-stdio"]: https://github.com/docker/cli/pull/1014
+// ["docker dial-stdio"]: https://github.com/joshuakb2/docker_cli/pull/1014
 func (cli *Client) Dialer() func(context.Context) (net.Conn, error) {
 	return cli.dialer()
 }

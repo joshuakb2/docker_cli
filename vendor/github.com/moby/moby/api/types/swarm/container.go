@@ -4,8 +4,8 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/moby/moby/api/types/container"
-	"github.com/moby/moby/api/types/mount"
+	"github.com/joshuakb2/moby/api/types/container"
+	"github.com/joshuakb2/moby/api/types/mount"
 )
 
 // DNSConfig specifies DNS related configurations in resolver configuration file (resolv.conf)

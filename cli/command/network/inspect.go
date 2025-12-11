@@ -7,12 +7,12 @@ import (
 	"context"
 	"io"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/completion"
-	"github.com/docker/cli/cli/command/inspect"
-	flagsHelper "github.com/docker/cli/cli/flags"
-	"github.com/moby/moby/client"
+	"github.com/joshuakb2/docker_cli/cli"
+	"github.com/joshuakb2/docker_cli/cli/command"
+	"github.com/joshuakb2/docker_cli/cli/command/completion"
+	"github.com/joshuakb2/docker_cli/cli/command/inspect"
+	flagsHelper "github.com/joshuakb2/docker_cli/cli/flags"
+	"github.com/joshuakb2/moby/client"
 	"github.com/spf13/cobra"
 )
 
