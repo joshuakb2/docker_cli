@@ -3,7 +3,7 @@ package trust
 import (
 	"fmt"
 
-	"github.com/joshuakb2/docker_cli-docs-tool/annotation"
+	"github.com/docker/cli-docs-tool/annotation"
 	"github.com/joshuakb2/docker_cli/cli"
 	"github.com/joshuakb2/docker_cli/cli-plugins/plugin"
 	"github.com/joshuakb2/docker_cli/cli/command"

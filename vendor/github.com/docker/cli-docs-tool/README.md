@@ -1,6 +1,6 @@
-[![PkgGoDev](https://img.shields.io/badge/go.dev-docs-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/joshuakb2/docker_cli-docs-tool)
-[![Test Status](https://img.shields.io/github/actions/workflow/status/docker/cli-docs-tool/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/joshuakb2/docker_cli-docs-tool/actions?query=workflow%3Atest)
-[![Go Report Card](https://goreportcard.com/badge/github.com/joshuakb2/docker_cli-docs-tool)](https://goreportcard.com/report/github.com/joshuakb2/docker_cli-docs-tool)
+[![PkgGoDev](https://img.shields.io/badge/go.dev-docs-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/docker/cli-docs-tool)
+[![Test Status](https://img.shields.io/github/actions/workflow/status/docker/cli-docs-tool/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/docker/cli-docs-tool/actions?query=workflow%3Atest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/docker/cli-docs-tool)](https://goreportcard.com/report/github.com/docker/cli-docs-tool)
 
 ## About
 
@@ -26,7 +26,7 @@ We will use the example of `docker/buildx` and create a Go submodule in a
 $ mkdir docs
 $ cd ./docs
 $ go mod init github.com/docker/buildx/docs
-$ go get github.com/joshuakb2/docker_cli-docs-tool
+$ go get github.com/docker/cli-docs-tool
 ```
 
 Your `go.mod` should look like this:
@@ -37,7 +37,7 @@ module github.com/docker/buildx/docs
 go 1.16
 
 require (
-	github.com/joshuakb2/docker_cli-docs-tool v0.0.0
+	github.com/docker/cli-docs-tool v0.0.0
 )
 ```
 

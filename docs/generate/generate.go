@@ -9,7 +9,7 @@ import (
 	"log"
 	"os"
 
-	clidocstool "github.com/joshuakb2/docker_cli-docs-tool"
+	clidocstool "github.com/docker/cli-docs-tool"
 	"github.com/joshuakb2/docker_cli/cli"
 	"github.com/joshuakb2/docker_cli/cli/command"
 	"github.com/joshuakb2/docker_cli/cli/command/commands"
