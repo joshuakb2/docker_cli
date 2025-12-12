@@ -401,7 +401,7 @@ func (cli *Client) dialerFromTransport() func(context.Context, string, string) (
 // that can be used for proxying the daemon connection. It is used by
 // ["docker dial-stdio"].
 //
-// ["docker dial-stdio"]: https://github.com/docker/cli/pull/1014
+// ["docker dial-stdio"]: https://github.com/joshuakb2/docker_cli/pull/1014
 func (cli *Client) Dialer() func(context.Context) (net.Conn, error) {
 	return cli.dialer()
 }
